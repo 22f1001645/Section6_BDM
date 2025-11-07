@@ -1,0 +1,10 @@
+# Ignore everything by default
+/*
+
+# Keep this .gitignore itself
+!/.gitignore
+
+# Allow the Section 6 subtree only
+!/2. BDM Mid Term Report/
+!/2. BDM Mid Term Report/Section 6 - Results & Findings/
+!/2. BDM Mid Term Report/Section 6 - Results & Findings/**

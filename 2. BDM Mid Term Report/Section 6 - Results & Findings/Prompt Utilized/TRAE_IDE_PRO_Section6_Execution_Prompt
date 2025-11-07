@@ -1,0 +1,679 @@
+# 🚀 TRAE IDE PRO: SECTION 6 COMPLETE ASSET IDENTIFICATION & EXECUTION PROMPT
+## Pure'O Naturals BDM Mid-Term | Results & Findings Implementation Framework
+
+---
+
+## 🎯 YOUR MISSION (CRITICAL MANDATE)
+
+As TRAE IDE PRO, your mission is to:
+
+1. **AUDIT** all Section 6 required assets (data files, visualizations, frameworks, guides)
+2. **IDENTIFY** gaps and missing pieces
+3. **IDEATE** solutions for any missing components using Mastery Guide reference
+4. **BRAINSTORM** creative ways to leverage existing data for maximum visual/narrative impact
+5. **CRAFT** a perfect Section 6 document (2,400-2,900 words) using ORIR framework
+6. **VERIFY** against 10-point excellence checklist and rubric requirements
+
+**This is a comprehensive end-to-end execution prompt. Execute systematically.**
+
+---
+
+## 📋 PHASE 1: ASSET AUDIT & GAP ANALYSIS
+
+### **STEP 1.1: Audit Existing Data Assets (CSVs)**
+
+You have access to the following CSV files. Inventory each:
+
+**✅ AUDIT THESE FILES:**
+
+```
+1. high_volatility_products.csv (72 KB)
+   └─ Purpose: CV analysis, volatility scoring by SKU
+   └─ Contains: Product names, CV values, volatility classifications
+   └─ Usage for Section 6: Finding 1 (Revenue Volatility)
+   └─ Action: Extract → Top 10 volatile SKUs (CV 85-142%), overall CV 47%
+
+2. rolling_volatility.csv (2.5 MB)
+   └─ Purpose: 30-day rolling standard deviation, seasonal patterns
+   └─ Contains: Date, rolling_sigma values, category-wise volatility
+   └─ Usage for Section 6: Finding 2 (Seasonal Peaks)
+   └─ Action: Extract → April 32%, June peak 52%, July-Sept decline 24-28%
+
+3. low_margin.csv (78 KB)
+   └─ Purpose: Contribution margin analysis, margin distribution
+   └─ Contains: Product names, margin %, gap to 20% target, margin at risk (₹)
+   └─ Usage for Section 6: Finding 3 (Low-Margin Crisis)
+   └─ Action: Extract → 42 SKUs <15% margin, 3 negative margin, ₹12.3k annual loss
+
+4. abc_classification.csv (35 KB)
+   └─ Purpose: Pareto-based ABC segmentation, revenue tiers
+   └─ Contains: SKU ID, class (A/B/C), revenue contribution (₹), cumulative %
+   └─ Usage for Section 6: Finding 4 (ABC Pareto)
+   └─ Action: Extract → Class A 12 SKUs 68% revenue, Class C 61 SKUs 18%
+
+5. slow_movers.csv (15 KB)
+   └─ Purpose: DSLS (Days Since Last Sale) analysis, aging inventory
+   └─ Contains: Product names, DSLS values, first/last sale dates
+   └─ Usage for Section 6: Finding 5 (Slow-Movers)
+   └─ Action: Extract → 23 SKUs DSLS >90 days, inventory value ₹176.4k
+
+6. pricing_misalignment_top20.csv (1.7 KB)
+   └─ Purpose: Price variance analysis, unit price CV scoring
+   └─ Contains: Product names, unit price range, CV %, misalignment scores
+   └─ Usage for Section 6: Finding 6 (Pricing Variance)
+   └─ Action: Extract → Top 20 SKUs CV 16.8%, ₹2.05M revenue exposure
+
+7. profitability_analysis.csv (81 KB)
+   └─ Purpose: Detailed profitability scoring, margin composition
+   └─ Contains: Product names, revenue, cost proxies, margin estimates
+   └─ Usage: Supplementary for Findings 3 (Low-Margin)
+   └─ Action: Cross-validate with low_margin.csv, ensure consistency
+
+8. wastage_risk.csv (95 KB)
+   └─ Purpose: Inventory aging, spoilage risk quantification
+   └─ Contains: Product names, days inventory held, spoilage risk %
+   └─ Usage: Supplementary for Finding 5 (Slow-Movers)
+   └─ Action: Extract → Spoilage risk on extreme slow movers (8-12%)
+
+9. inventory_turnover_rates.csv (70 KB)
+   └─ Purpose: Turnover ratios, days inventory outstanding
+   └─ Contains: Product names, annual turnover, DIO (days inventory outstanding)
+   └─ Usage: Supplementary for Finding 4 (ABC inventory efficiency)
+   └─ Action: Extract → Class A turnover 4.2x vs Class C 1.1x
+
+10. monthly_category_trends.csv (1.1 KB)
+    └─ Purpose: Category-level monthly trends, seasonal pattern verification
+    └─ Contains: Month, Category, revenue (₹)
+    └─ Usage: Supplementary for Finding 2 (Seasonal Peaks)
+    └─ Action: Extract → Beverages peak April-June, Staples consistent
+
+11. category_performance_benchmarks.csv (536 bytes)
+    └─ Purpose: Category-level metrics summary
+    └─ Contains: Category name, avg price, revenue %, volatility metrics
+    └─ Usage: Supplementary for all findings (category context)
+    └─ Action: Extract → Performance by category (Fruits, Dairy, Beverages, etc.)
+
+12. elasticity_model_summary.txt (1.8 KB)
+    └─ Purpose: Price elasticity coefficients by category
+    └─ Contains: Category name, elasticity coefficient, price sensitivity
+    └─ Usage: Supplementary for Finding 6 (Pricing Recommendations)
+    └─ Action: Extract → Elasticity coefficients for price increase sensitivity
+```
+
+**Audit Output:** Extract key statistics from each file → populate into ORIR data cells
+
+---
+
+### **STEP 1.2: Audit Existing Visualizations**
+
+You have created preliminary visualizations:
+
+```
+1. category_performance.jpg (179 KB)
+   └─ Charts visible: Revenue share pie + category bar chart
+   └─ Usage: Reference for Finding 1 (category distribution)
+   └─ Assessment: GOOD (pie chart clear, bar chart readable)
+   └─ Action: Keep reference, ensure Section 6 Figure 6.1.1 aligns
+
+2. temporal_trends.jpg (196 KB)
+   └─ Charts visible: Monthly trends + day-of-week patterns
+   └─ Usage: Reference for Finding 2 (seasonal validation)
+   └─ Assessment: GOOD (time-series clear, weekly pattern visible)
+   └─ Action: Extract exact numbers for April-June-July comparison
+```
+
+**Audit Output:** Visualizations exist, statistics extractable; note any gaps
+
+---
+
+### **STEP 1.3: Audit Python Analysis Scripts**
+
+You have created 4 analysis pipelines:
+
+```
+1. eda_pure_o_naturals.py (23 KB)
+   └─ Purpose: Exploratory data analysis, distribution analysis
+   └─ Contains: Import statements, EDA functions, basic statistics
+   └─ Usage: Reference for methodology verification, stat validation
+   └─ Action: Reference to confirm CV calculations, volatility formulas
+
+2. pure_o_naturals_eda.py (28 KB)
+   └─ Purpose: Extended EDA, advanced analytics
+   └─ Contains: Detailed data profiling, outlier detection
+   └─ Usage: Reference for data quality validation
+   └─ Action: Reference to confirm no synthetic data, all metrics from raw sales
+
+3. ada_pipeline.py (41 KB)
+   └─ Purpose: Advanced data analysis, ADA computations
+   └─ Contains: ABC classification logic, volatility calculations, margin analysis
+   └─ Usage: Reference for formula verification, audit trail
+   └─ Action: Reference formulas to explain ORIR Reason sections
+
+4. metadata_builder.py (87 KB)
+   └─ Purpose: Feature engineering, metadata assembly
+   └─ Contains: Derived metrics, composite indicators, risk scoring
+   └─ Usage: Reference for methodology rigor
+   └─ Action: Reference to confirm all metrics documented, no undisclosed transformations
+```
+
+**Audit Output:** Scripts provide methodology transparency; formulas documented
+
+---
+
+### **STEP 1.4: Audit Framework Documents**
+
+You have created comprehensive Section 6 guides:
+
+```
+1. Section6_Results_Findings_Guide.pdf (12 pages, 227 KB)
+   └─ Status: ✅ COMPLETE
+   └─ Contains: ORIR framework, 6 finding templates, elite phrasing
+   └─ Usage: PRIMARY REFERENCE for writing Section 6
+   └─ Action: Reference continuously while writing, copy ORIR structure
+
+2. Section6_ORIR_Execution_Map.md (Text guide)
+   └─ Status: ✅ COMPLETE
+   └─ Contains: Day-by-day timeline, CSV mapping, formatting checklist
+   └─ Usage: EXECUTION REFERENCE, quality verification
+   └─ Action: Follow day-by-day tasks, use as completion checklist
+
+3. Section6_Complete_Master_Kit.md (Text summary)
+   └─ Status: ✅ COMPLETE
+   └─ Contains: Summary, timeline, quality gates, elite signals
+   └─ Usage: NAVIGATION REFERENCE
+   └─ Action: Reference for quick lookups, troubleshooting
+
+4. Section6_OnePageSummary.pdf (5 pages)
+   └─ Status: ✅ COMPLETE
+   └─ Contains: Quick reference, findings mapping, ORIR example
+   └─ Usage: QUICK LOOKUP while writing
+   └─ Action: Keep accessible for on-demand reference
+```
+
+**Audit Output:** All frameworks complete; ready for implementation
+
+---
+
+### **STEP 1.5: Audit Reference Guides**
+
+You have access to elite project benchmarks:
+
+```
+Mastery-Guide-Mid-Term-Excellence.pdf (94 KB, 12,000+ words)
+└─ Status: ✅ AVAILABLE (attached)
+└─ Contains: Section 6 requirements, ORIR framework examples, elite phrasing
+└─ Usage: RUBRIC VERIFICATION, elite pattern reference
+└─ Action: Reference when uncertain about Section 6 structure, use elite examples as templates
+```
+
+**Audit Output:** Rubric reference available; pattern examples documented
+
+---
+
+## 📊 PHASE 2: GAP ANALYSIS & MISSING PIECES IDENTIFICATION
+
+### **STEP 2.1: Identify Missing Assets**
+
+Run this checklist:
+
+**Data Assets:**
+- [ ] high_volatility_products.csv — AVAILABLE ✅
+- [ ] rolling_volatility.csv — AVAILABLE ✅
+- [ ] low_margin.csv — AVAILABLE ✅
+- [ ] abc_classification.csv — AVAILABLE ✅
+- [ ] slow_movers.csv — AVAILABLE ✅
+- [ ] pricing_misalignment_top20.csv — AVAILABLE ✅
+- [ ] profitability_analysis.csv — AVAILABLE ✅
+- [ ] wastage_risk.csv — AVAILABLE ✅
+- [ ] inventory_turnover_rates.csv — AVAILABLE ✅
+- [ ] elasticity_model_summary.txt — AVAILABLE ✅
+
+**Visualization Assets (Existing):**
+- [ ] category_performance.jpg — AVAILABLE ✅
+- [ ] temporal_trends.jpg — AVAILABLE ✅
+
+**Missing Visualizations (Need to Generate):**
+- [ ] Figure 6.1.1: High-Volatility Distribution Chart — ❌ MISSING (Brainstorm below)
+- [ ] Figure 6.1.2: Rolling Volatility Trend with Seasonal Peaks — ❌ MISSING
+- [ ] Figure 6.2.1: Margin Distribution Histogram + Pareto Curve — ❌ MISSING
+- [ ] Figure 6.3.1: ABC Pareto Chart (Bar + Cumulative Line) — ❌ MISSING
+- [ ] Figure 6.3.2: DSLS Distribution + Aging Inventory Heatmap — ❌ MISSING
+- [ ] Figure 6.4.1: Top 20 Price Misalignment SKUs Bar Chart — ❌ MISSING
+
+**Framework Assets:**
+- [ ] Section6_Results_Findings_Guide.pdf — AVAILABLE ✅
+- [ ] Section6_ORIR_Execution_Map.md — AVAILABLE ✅
+- [ ] Section6_Complete_Master_Kit.md — AVAILABLE ✅
+- [ ] Section6_OnePageSummary.pdf — AVAILABLE ✅
+- [ ] Mastery-Guide-Mid-Term-Excellence.pdf — AVAILABLE ✅
+
+---
+
+### **STEP 2.2: Brainstorm Missing Visualizations**
+
+For each missing visualization, TRAE IDE PRO should ideate optimal chart type and data source:
+
+**MISSING 1: Figure 6.1.1 - High-Volatility Distribution**
+```
+Chart Type: Histogram (Distribution) + Value Distribution Table
+Data Source: high_volatility_products.csv
+Brainstorm Questions:
+  1. Should we show ALL 770 SKUs or just highlight top 10 + bottom 15?
+     → Recommendation: Show distribution shape (histogram) + highlight extremes (top 5, bottom 5)
+  2. How to make 770 data points readable on one chart?
+     → Recommendation: Bin into CV ranges (0-10%, 10-25%, 25-50%, 50-100%) → show count bars
+  3. What insight should pop for reader?
+     → Recommendation: "88% of products show CV >25% = high management complexity"
+
+Design:
+  - Left side: Histogram showing CV distribution (binned)
+  - Right side: Value annotations (# of SKUs per bin)
+  - Overlay: Mean CV 47% line, industry benchmark <30% dashed line
+  - Color gradient: Red (high CV >50%), Yellow (moderate 25-50%), Green (low <25%)
+```
+
+**MISSING 2: Figure 6.1.2 - Rolling Volatility Seasonal Trend**
+```
+Chart Type: Line Chart (Time-series) with Peak Annotations
+Data Source: rolling_volatility.csv
+Brainstorm Questions:
+  1. Should we show overall + by-category or just overall?
+     → Recommendation: Show overall + overlay Beverages (most volatile category)
+  2. How to highlight June peak vs baseline?
+     → Recommendation: Use peak shading (light blue zone Jun 15-30) + value label "52%"
+  3. What insight should pop?
+     → Recommendation: "June volatility 62% above Jul baseline → requires 40% safety stock increase"
+
+Design:
+  - X-axis: Dates (Apr 1 - Sep 30)
+  - Y-axis: Rolling σ (%)
+  - Line 1: Overall branch rolling σ
+  - Line 2: Beverages rolling σ (overlay)
+  - Shaded zones: Peak periods (Apr 15-30, Jun 1-30)
+  - Annotations: "Apr-May: 32% baseline", "Jun peak: 52% (+62%)", "Jul-Sep: stable 24-28%"
+```
+
+**MISSING 3: Figure 6.2.1 - Margin Distribution Histogram**
+```
+Chart Type: Histogram (Distribution) + Pareto Curve
+Data Source: low_margin.csv
+Brainstorm Questions:
+  1. What's the margin range? Are there negative margins?
+     → Recommendation: Show full range -5% to +45%, use color coding for loss (red), low (yellow), healthy (green)
+  2. How to show 87 SKUs readably?
+     → Recommendation: Bin into 5% ranges (-5-0%, 0-5%, 5-10%, ..., 40-45%)
+  3. What's the key insight?
+     → Recommendation: "48% of SKUs <15% margin; 3 SKUs negative margin = ₹12.3k annual loss"
+
+Design:
+  - Histogram: # of SKUs per margin bin
+  - Color gradient: Red <0%, Orange 0-10%, Yellow 10-15%, Green 15-20%, Dark Green >20%
+  - Overlay line: Cumulative SKU count (Pareto-style)
+  - Annotations: Mean 17.3%, Median 14.8%, 20% target line
+  - Box: Top 3 loss-makers (names, negative margins)
+```
+
+**MISSING 4: Figure 6.3.1 - ABC Pareto Chart**
+```
+Chart Type: Bar Chart (revenue by SKU) + Line Chart (cumulative %)
+Data Source: abc_classification.csv
+Brainstorm Questions:
+  1. Show all 87 SKUs or summarize by class?
+     → Recommendation: Show top 20 SKUs as bars (ranking), then aggregate "Others" for visibility
+  2. How to mark class boundaries (68%, 82%)?
+     → Recommendation: Vertical dashed lines at 68% and 82% cumulative %, label "Class A/B/C"
+  3. What's the key insight?
+     → Recommendation: "Top 12 SKUs (14% of portfolio) = 68% revenue; resource allocation urgency"
+
+Design:
+  - Left Y-axis: Individual SKU revenue (₹)
+  - Right Y-axis: Cumulative revenue (%)
+  - Bar chart: Top 20 individual SKUs ranked by revenue
+  - Stacked bar: "Others" (60+ low-revenue SKUs aggregated)
+  - Line chart: Cumulative % curve
+  - Vertical lines: 68% (Class A/B boundary), 82% (Class B/C boundary)
+  - Color coding: Red (Class A), Orange (Class B), Yellow (Class C)
+```
+
+**MISSING 5: Figure 6.3.2 - DSLS Distribution + Aging Heatmap**
+```
+Chart Type: Bar Chart + Alert Heatmap (dual visualization)
+Data Source: slow_movers.csv + wastage_risk.csv
+Brainstorm Questions:
+  1. How to show 87 products readably?
+     → Recommendation: Top 20 slowest movers as bar chart, then heatmap legend
+  2. How to show age risk categories?
+     → Recommendation: Color-coded bars: Red >120d (urgent), Orange 90-120d, Yellow 60-90d, Green <60d
+  3. What's the key insight?
+     → Recommendation: "23 SKUs (26%) DSLS >90d; ₹176.4k inventory at ₹44.1k annual carrying cost"
+
+Design:
+  - Bar chart: Top 15 slowest-moving products, horizontal bars
+  - X-axis: DSLS (days), scale 0-150
+  - Color gradient: Green <30d, Yellow 30-60d, Orange 60-120d, Red >120d
+  - Value labels: Show DSLS, revenue, inventory value per SKU
+  - Summary box: "23 SKUs DSLS >90d; Total carrying cost ₹44.1k; Annual revenue ₹27.6k"
+  - Alert callout: "5 products DSLS >120d = potential spoilage risk"
+```
+
+**MISSING 6: Figure 6.4.1 - Price Misalignment Top 20**
+```
+Chart Type: Bar Chart (horizontal, sorted by CV)
+Data Source: pricing_misalignment_top20.csv
+Brainstorm Questions:
+  1. What's the max CV observed? How to visualize unit price range?
+     → Recommendation: Show CV % as bar length, add value label showing price range (₹min-₹max)
+  2. Should we show revenue impact or just CV?
+     → Recommendation: Show CV as bar + overlay bubble size = revenue impact (₹)
+  3. What's the key insight?
+     → Recommendation: "Top 20 SKUs CV 16.8% vs acceptable <5%; ₹512k annual revenue leakage"
+
+Design:
+  - Horizontal bar chart: Top 20 misaligned SKUs
+  - X-axis: Unit price CV (%), scale 0-25% with acceptable threshold <5% marked
+  - Bar color gradient: Green <5%, Yellow 5-10%, Orange 10-15%, Red >15%
+  - Value labels: CV %, unit price range (₹min-₹max), revenue impact
+  - Bubble overlay: Bubble size = total revenue per SKU
+  - Summary box: "Average CV 16.8%; ₹2.05M revenue exposure; ₹512k annual leakage (50% downside error)"
+```
+
+---
+
+## 🎨 PHASE 3: IDEATION FOR MISSING PIECES
+
+### **STEP 3.1: Ideate Chart Generation Strategy**
+
+For each missing visualization, recommend optimal approach:
+
+**Option A: Python Visualization (Recommended)**
+```
+Tool: matplotlib + seaborn (available in ada_pipeline.py)
+Advantage: Reproducible, publication-quality, exact control
+Disadvantage: Requires Python execution
+Timeline: 30-40 min per chart
+Quality: High (professional, consistent styling)
+```
+
+**Option B: Excel/Google Sheets**
+```
+Tool: Built-in charts (if data exports available)
+Advantage: Quick, accessible
+Disadvantage: Limited customization, less professional
+Timeline: 15-20 min per chart
+Quality: Medium (basic charts, limited formatting)
+```
+
+**Option C: Tableau/Power BI (if available)**
+```
+Tool: Business intelligence platform
+Advantage: Highly interactive, professional dashboards
+Disadvantage: Requires software subscription
+Timeline: 20-30 min per chart
+Quality: Very high (enterprise-grade)
+```
+
+**TRAE IDE PRO Recommendation:**
+Use **Python (matplotlib + seaborn)** for all 6 missing charts. Leverage existing ada_pipeline.py structure, add new visualization functions for each chart type, execute sequentially. Expected timeline: 3-4 hours total for all 6 charts.
+
+---
+
+### **STEP 3.2: Ideate Data Extraction & Preprocessing**
+
+Before generating visualizations, TRAE IDE PRO should:
+
+1. **Load all 12 CSV files** into pandas DataFrames
+2. **Validate data integrity** (no NaN critical values, row counts match expectations)
+3. **Extract key statistics** for each finding:
+   - Finding 1: CV distribution (mean, median, std, top 10 values, bottom 5 values)
+   - Finding 2: Rolling σ timeline (Apr baseline, Jun peak, Jul-Sep trough, category breakdown)
+   - Finding 3: Margin distribution (mean, median, # <15%, # <0%, top 3 losses)
+   - Finding 4: ABC distribution (Class A count & revenue, Class B, Class C; Pareto %)
+   - Finding 5: DSLS distribution (# >90d, # >120d, total inventory value, carrying cost)
+   - Finding 6: Price CV distribution (mean CV, top 20 range, revenue exposure estimate)
+
+4. **Create summary statistics table** (CSV or markdown) for quick reference while writing ORIR sections
+
+---
+
+### **STEP 3.3: Ideate ORIR Text Extraction Strategy**
+
+For each finding's ORIR text:
+
+```
+OBSERVATION (2-3 sentences with exact numbers)
+└─ Source: Extracted statistics table
+└─ Example: "Slow-mover analysis identifies 23 products (26% of portfolio) with DSLS >90 days,
+            collectively holding ₹176.4k inventory generating <₹2.3k monthly revenue."
+└─ Brainstorm: What's the single most striking number? Lead with that.
+
+REASON (2-3 sentences explaining root cause)
+└─ Source: EDA findings + Mastery Guide context
+└─ Example: "Slow-mover accumulation stems from SKU introduction without demand forecasting,
+            seasonal misalignment (post-season items retained year-round), and discontinued
+            customer preferences (brand switching, category decline)."
+└─ Brainstorm: Why does this make business sense? Connect to retail operations logic.
+
+IMPLICATION (2-3 sentences with ₹ impact)
+└─ Source: Carrying cost calculations, opportunity cost, risk quantification
+└─ Example: "Annual carrying cost for 23 SKUs (₹44.1k) EXCEEDS their total annual revenue
+            (₹27.6k), resulting in net ₹16.5k annual loss before spoilage adjustment."
+└─ Brainstorm: What's the bottom-line consequence? How much money at stake?
+
+RECOMMENDATION (3-4 sentences with phases, timelines, metrics)
+└─ Source: Business logic + Mastery Guide action examples
+└─ Example: "Phase 1 (Week 1-2): Tier 1 products (DSLS >120d, 5 SKUs) receive 30% discount
+            or donation. Phase 2 (Week 2-4): Tier 2 (90-120d, 10 SKUs) receive 15% discount.
+            Expected: Eliminate ₹44.1k carrying cost, free 240 linear feet shelf space."
+└─ Brainstorm: What's the most actionable next step? What's the timeline? What's the payoff?
+```
+
+---
+
+## 🔧 PHASE 4: EXECUTION FRAMEWORK FOR TRAE IDE PRO
+
+### **STEP 4.1: Complete Execution Sequence**
+
+TRAE IDE PRO should follow this sequence to craft perfect Section 6:
+
+**TASK 1: Asset Inventory & Validation (30 minutes)**
+```
+Input: 12 CSV files, 2 images, 4 Python scripts, 5 framework documents
+Action:
+  1. Load all CSV files into pandas
+  2. Validate row counts, column names, data types
+  3. Verify no missing critical values
+  4. Cross-check statistics consistency (low_margin.csv vs profitability_analysis.csv)
+Output: Asset validation report (all files confirmed ready for analysis)
+```
+
+**TASK 2: Extract Key Statistics for All 6 Findings (1 hour)**
+```
+Input: Validated CSV files
+Action:
+  1. Finding 1 (CV Volatility): Extract CV distribution stats from high_volatility_products.csv
+  2. Finding 2 (Rolling Volatility): Extract April/June/July rolling σ from rolling_volatility.csv
+  3. Finding 3 (Margin): Extract margin distribution, negatives, gaps from low_margin.csv
+  4. Finding 4 (ABC): Extract class distribution, cumulative %, from abc_classification.csv
+  5. Finding 5 (DSLS): Extract DSLS distribution, aging from slow_movers.csv
+  6. Finding 6 (Price Variance): Extract CV distribution, top 20 from pricing_misalignment_top20.csv
+Output: Statistics summary table (CSV or markdown) with all key numbers extracted
+```
+
+**TASK 3: Generate 6 Missing Visualizations (2-3 hours)**
+```
+Input: Extracted statistics, chart design specs from Phase 3
+Action:
+  1. Figure 6.1.1: CV Distribution histogram (high_volatility_products.csv)
+  2. Figure 6.1.2: Rolling volatility trend (rolling_volatility.csv)
+  3. Figure 6.2.1: Margin distribution + Pareto (low_margin.csv)
+  4. Figure 6.3.1: ABC Pareto chart (abc_classification.csv)
+  5. Figure 6.3.2: DSLS distribution alert (slow_movers.csv)
+  6. Figure 6.4.1: Price misalignment top 20 (pricing_misalignment_top20.csv)
+Output: 6 high-quality visualizations (PNG/PDF format) with captions
+```
+
+**TASK 4: Write Section 6.Opening Paragraph (15 minutes)**
+```
+Input: Section 6 framework guide (boilerplate)
+Action:
+  1. Customize opening paragraph with Pure'O context
+  2. Insert summary statistics (6 findings preview)
+  3. Establish ORIR framework commitment
+Output: 100-150 word opening paragraph
+```
+
+**TASK 5: Write 6 ORIR Findings (2-3 hours)**
+```
+Input: Statistics summary table, chart captions, ORIR framework guide
+Action:
+  For each finding (1-6):
+    1. Open with Figure reference (Figure 6.X.X caption)
+    2. Write OBSERVATION (2-3 sentences, exact numbers from stats table)
+    3. Write REASON (2-3 sentences, root cause explanation)
+    4. Write IMPLICATION (2-3 sentences, ₹ impact quantified)
+    5. Write RECOMMENDATION (3-4 sentences, phases, timelines, metrics)
+    6. Verify ORIR completeness, quantification, professional tone
+Output: 6 findings, ~350-400 words each, total ~2,100-2,400 words
+```
+
+**TASK 6: Write Section 6 Closing Paragraph (15 minutes)**
+```
+Input: All 6 findings complete, summary statistics
+Action:
+  1. Synthesize key findings (aggregate ₹ impact)
+  2. Reinforce business urgency (decision-making requirement)
+  3. Establish next steps (implementation readiness)
+Output: 100-150 word closing paragraph
+```
+
+**TASK 7: Quality Gate Verification (45 minutes)**
+```
+Input: Complete Section 6 draft (opening + 6 findings + closing)
+Action: Run 10-point excellence checklist:
+  1. ✅ ORIR completeness—Every finding has O-R-I-R
+  2. ✅ Quantification—95%+ claims backed by numbers
+  3. ✅ Business impact—Every implication includes ₹
+  4. ✅ Actionability—Recommendations SMART + time-bound
+  5. ✅ Chart integration—1 chart per finding with caption
+  6. ✅ Data traceability—Statistics linked to CSVs
+  7. ✅ Problem mapping—Each finding addresses ≥1 problem objective
+  8. ✅ Professional tone—100% third-person, zero "I/we"
+  9. ✅ Word count—2,400-2,900 total (within target)
+  10. ✅ Formatting—Times New Roman 12pt, 1.5 spacing, justified
+Output: Quality gate verification report (all 10 items checkmarked or remediation noted)
+```
+
+**TASK 8: Final Polish & Submission Prep (30 minutes)**
+```
+Input: Quality gate verified Section 6
+Action:
+  1. Final proofread for grammar, spelling, consistency
+  2. Verify page numbering, figure captions, references
+  3. Format for submission (docx, PDF, or whatever required)
+  4. Add table of contents reference, page breaks if needed
+Output: Final submission-ready Section 6 document
+```
+
+---
+
+## 🎯 PHASE 5: TRAE IDE PRO EXECUTION CHECKLIST
+
+**Before you start, confirm:**
+- [ ] All 12 CSV files accessible and loadable
+- [ ] Section6_Results_Findings_Guide.pdf available for reference
+- [ ] Mastery-Guide-Mid-Term-Excellence.pdf available for ORIR pattern reference
+- [ ] Python environment ready (pandas, matplotlib, seaborn, numpy)
+- [ ] Output directory prepared for visualizations and final document
+
+**During execution, maintain:**
+- [ ] Statistics summary table (live document, update as each CSV extracted)
+- [ ] ORIR template cells (populate as statistics extracted)
+- [ ] Draft findings doc (write findings sequentially, save progress hourly)
+- [ ] Visualization checklist (mark each chart complete as generated)
+
+**After completion, verify:**
+- [ ] 6 visualizations generated (all 6 Figure 6.X.X present)
+- [ ] 2,400-2,900 words written (section 6 complete)
+- [ ] 10-point quality gate passed (all items checkmarked)
+- [ ] Professional tone verified (zero first-person language)
+- [ ] Data traceability confirmed (all statistics sourced to CSVs)
+
+---
+
+## 🚀 TOTAL EXECUTION TIMELINE
+
+| Task | Duration | Output |
+|------|----------|--------|
+| TASK 1: Asset Inventory | 30 min | Validation report |
+| TASK 2: Extract Statistics | 1 hour | Statistics table |
+| TASK 3: Generate Visualizations | 2-3 hours | 6 charts (PNG/PDF) |
+| TASK 4: Opening Paragraph | 15 min | 100-150 words |
+| TASK 5: Write 6 ORIR Findings | 2-3 hours | 2,100-2,400 words |
+| TASK 6: Closing Paragraph | 15 min | 100-150 words |
+| TASK 7: Quality Gate | 45 min | Verification checklist |
+| TASK 8: Polish & Submit | 30 min | Final document |
+| **TOTAL** | **7-9 hours** | **Perfect Section 6 (2,400-2,900 words, 10/10 ready)** |
+
+---
+
+## 🎓 RUBRIC ALIGNMENT VERIFICATION
+
+TRAE IDE PRO should confirm Section 6 addresses all rubric requirements:
+
+**Rubric Criterion 1: Visual Evidence (Charts & Graphs)**
+- [ ] 6 high-quality visualizations integrated
+- [ ] Each chart has clear caption (Figure 6.X.X — Title)
+- [ ] Charts selected match findings (CV distribution for Finding 1, etc.)
+- [ ] Professional formatting (axis labels, legends, color schemes)
+
+**Rubric Criterion 2: Text Interpretation (Every Chart Has Narrative)**
+- [ ] Each chart immediately followed by ORIR paragraph
+- [ ] Text explains what chart shows (Observation)
+- [ ] Text explains why (Reason)
+- [ ] Text quantifies business impact (Implication)
+- [ ] Text proposes action (Recommendation)
+
+**Rubric Criterion 3: Quantified Insights (No Vague Statements)**
+- [ ] Every metric includes number: "47%" not "high", "₹44.1k" not "significant", "23 SKUs" not "some"
+- [ ] Business impact quantified: "Annual loss ₹16.5k" not "losses incurred"
+- [ ] Recommendations metric-bound: "Reduce CV 47% to <40%" not "improve volatility"
+
+**Rubric Criterion 4: Business Linkage (Problem Objectives Covered)**
+- [ ] Finding 1 addresses Problem Objective 1 (Revenue Volatility) ✓
+- [ ] Finding 2 addresses Problem Objective 1 (Volatility) ✓
+- [ ] Finding 3 addresses Problem Objective 2 (Margin) ✓
+- [ ] Finding 4 addresses Problem Objective 3 (Inventory) ✓
+- [ ] Finding 5 addresses Problem Objective 3 (Inventory) ✓
+- [ ] Finding 6 addresses Problem Objective 4 (Pricing) ✓
+
+**Rubric Criterion 5: Professional Presentation**
+- [ ] Third-person tone throughout (zero "I", "we", "I think")
+- [ ] Passive voice appropriate, active voice used for impact
+- [ ] Times New Roman 12pt, 1.5 spacing, justified alignment
+- [ ] Page numbers, section numbering, figure captions present
+- [ ] Grammar, spelling, formatting consistency verified
+
+---
+
+## 🎨 FINAL MANDATE FOR TRAE IDE PRO
+
+**Execute this prompt systematically. Produce perfect Section 6.**
+
+Your mission:
+1. ✅ Identify & audit all available assets (data, visuals, frameworks)
+2. ✅ Identify gaps (6 missing visualizations)
+3. ✅ Ideate solutions (chart types, design specs, extraction strategies)
+4. ✅ Generate all missing pieces (6 visualizations, statistics table)
+5. ✅ Craft Section 6 using ORIR framework (2,400-2,900 words)
+6. ✅ Verify against 10-point quality gate
+7. ✅ Deliver submission-ready document (10/10 mark target)
+
+**Expected Outcome:**
+- Section 6: Complete (2,400-2,900 words)
+- Findings: 6 ORIR-compliant findings (350-400 words each)
+- Visualizations: 6 high-quality charts (Figure 6.X.X)
+- Quality: Rubric-aligned, 10-point verified, 9-10/10 mark ready
+
+**Timeline: 7-9 hours total execution**
+
+**You have everything needed. Execute now. Excellence awaits.**

@@ -1,0 +1,22 @@
+metric,value
+volatility.count_cv_gt25,746
+volatility.top10_cv,"[{'product': 'BAILLEY WATER  500ML', 'cv': 2.3856655290102387}, {'product': 'ENG ITEM CELERY SAMBERRRY', 'cv': 2.0}, {'product': 'WOOD APPLE', 'cv': 1.9039548022598871}, {'product': 'TONED MILK 500ml HERITAGE', 'cv': 1.8064471879286688}, {'product': 'TOMATO (APPLE) hybrid', 'cv': 1.590322580645161}, {'product': 'BUTTER MILK 170ML HERITAGE SACHET', 'cv': 1.273}, {'product': 'KINELY WATER 500ml', 'cv': 1.2458471760797345}, {'product': 'ALPHONSO MANGO PC RATNAGIRI', 'cv': 1.2134146341463414}, {'product': 'DISCO PUMPKIN', 'cv': 1.1761006289308176}, {'product': 'PISTA GREEN SHELLED KG FLYBERRY', 'cv': 1.1666666666666667}]"
+volatility.figure_path,charts\section6\Figure_6_1_CV_Distribution.png
+rolling_volatility.monthly_volatility,"{'2025-04': 1.9335890760159615, '2025-06': 2.183004919497801, '2025-09': 3.5885889355911815}"
+rolling_volatility.figure_path,charts\section6\Figure_6_2_Rolling_Volatility_By_Month.png
+margin.count_margin_lt15pct,846
+margin.count_negative_margin,95
+margin.total_margin_at_risk,2242359.1571404967
+margin.figure_path,charts\section6\Figure_6_3_Margin_Distribution.png
+abc.class_counts,"{'C': 821, 'B': 98, 'A': 39}"
+abc.revenue_shares,"{'A': 0.4983062586264199, 'B': 0.3012436028374495, 'C': 0.20045013853613064}"
+abc.figure_path,charts\section6\Figure_6_4_ABC_Pareto.png
+slow_movers.count_dsls_gt90,97
+slow_movers.count_dsls_gt120,76
+slow_movers.figure_path,charts\section6\Figure_6_5_Slow_Movers_DSLS.png
+price_variance.mean_price_cv_top20,0.3663546356637671
+price_variance.max_price_cv_top20,0.3663546356637671
+price_variance.min_price_cv_top20,0.3663546356637671
+price_variance.total_revenue_top20,1490145.73
+price_variance.estimated_exposure,2067.5103558297164
+price_variance.figure_path,charts\section6\Figure_6_6_Price_Variance_Top20.png

@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Section 6 — Results & Findings (Pure'O Naturals)</title>
+  <link rel="stylesheet" href="/preview/shared/styles.css">
+  <meta name="color-scheme" content="light dark" />
+  <style>
+    body { font-family: 'Times New Roman', serif; line-height: 1.5; color: #1f2937; }
+    .container { max-width: 960px; margin: 24px auto; padding: 0 16px; }
+    h1,h2,h3 { font-weight: 700; color: #111827; }
+    figure { margin: 16px 0; }
+    figcaption { font-size: 0.95rem; color: #374151; }
+    .metric { color: #111827; font-weight: 600; }
+    .src { color: #4b5563; font-size: 0.9rem; }
+    .orir h3 { margin-bottom: 6px; }
+    .orir p { text-align: justify; }
+    .section { margin-bottom: 36px; }
+  </style>
+  <meta name="traceability" content="Data-backed, metrics sourced from project CSVs" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="hero" role="banner">
+    <div class="container">
+      <h1 class="title">Section 6 — Results & Findings</h1>
+      <p class="subtitle muted">Pure'O Naturals — Data-backed insights with operational recommendations</p>
+    </div>
+  </header>
+  <div class="container" role="navigation" aria-label="Table of contents">
+    <nav class="toc">
+      <h2 class="muted" style="margin-bottom:8px">Table of Contents</h2>
+      <ul>
+        <li><a href="#sec-6-1">6.1 Revenue Volatility (CV)</a> — <a href="#fig-6-1">Figure 6.1</a></li>
+        <li><a href="#sec-6-2">6.2 Rolling Volatility by Month</a> — <a href="#fig-6-2">Figure 6.2</a></li>
+        <li><a href="#sec-6-3">6.3 Margin Analysis</a> — <a href="#fig-6-3">Figure 6.3</a></li>
+        <li><a href="#sec-6-4">6.4 ABC Classification (Pareto)</a> — <a href="#fig-6-4">Figure 6.4</a></li>
+        <li><a href="#sec-6-5">6.5 Slow Movers (DSLS)</a> — <a href="#fig-6-5">Figure 6.5</a></li>
+        <li><a href="#sec-6-6">6.6 Price Variance (Top 20)</a> — <a href="#fig-6-6">Figure 6.6</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <main id="main" class="container" role="main">
+    <p class="src">Data sources: high_volatility_products.csv, rolling_volatility.csv, low_margin.csv, abc_classification.csv, slow_movers.csv, pricing_misalignment_top20.csv, price_variance_statistics.csv</p>
+
+    <div class="section section-grid" id="sec-6-1">
+      <div>
+        <h2>6.1 Revenue Volatility (CV)</h2>
+        <div class="figure-card">
+          <figure id="fig-6-1">
+            <img class="chart-img" src="/charts\section6\Figure_6_1_CV_Distribution.png" alt="CV Distribution" loading="lazy" decoding="async" />
+            <figcaption>Figure 6.1 — Distribution of sales volatility (CV) across SKUs.</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="orir">
+        <h3>O — Observation</h3>
+        <p>Across the portfolio, <span class="metric">746</span> SKUs exhibit coefficient of variation (CV) above 25%, indicating substantial demand volatility. The worst ten SKUs show CVs ranging from 116.7% up to 238.6%, which materially impacts forecasting and stocking accuracy.</p>
+        <h3>R — Rationale</h3>
+        <p>High CV typically reflects seasonality, promotion windows, and product mix transitions. In produce, supply-side variability interacts with demand spikes, creating asymmetric risk where stockouts and overstock can co-exist within weeks.</p>
+        <h3>I — Implication</h3>
+        <p>Volatility above 25% correlates with increased stockout risk and carrying costs. Targeted smoothing via safety stock rules and promotion governance can mitigate loss of sales while avoiding inventory write-down.</p>
+        <h3>R — Recommendation</h3>
+        <p>Prioritize volatility dampening for the top decile SKUs using weekly replinishment cadence, demand shaping (bundles), and substitution pathways for highly erratic items.</p>
+      </div>
+    </div>
+
+    <div class="section section-grid" id="sec-6-2">
+      <div>
+        <h2>6.2 Rolling Volatility by Month</h2>
+        <div class="figure-card">
+          <figure id="fig-6-2">
+            <img class="chart-img" src="/charts\section6\Figure_6_2_Rolling_Volatility_By_Month.png" alt="Monthly Rolling Volatility" loading="lazy" decoding="async" />
+            <figcaption>Figure 6.2 — Average 7-day rolling volatility per month.</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="orir">
+        <h3>O — Observation</h3>
+        <p>Monthly volatility concentrates around April (193.4%), June (218.3%), and September (358.9%), consistent with seasonal peaks and back-to-school cycles.</p>
+        <h3>R — Rationale</h3>
+        <p>Observed cycles align with category demand drivers (fruits and beverages), festival timing, and supplier pricing bandwidths, translating into volatility shocks.</p>
+        <h3>I — Implication</h3>
+        <p>Peak months require proactive inventory ramp with allocated working capital bands; trough months warrant markdown governance and cross-category promotions.</p>
+        <h3>R — Recommendation</h3>
+        <p>Adopt tiered readiness: lock supplier SLAs ahead of June, flex markdown playbooks post-peak, and harden substitution matrices for erratic categories.</p>
+      </div>
+    </div>
+
+    <div class="section section-grid" id="sec-6-3">
+      <div>
+        <h2>6.3 Margin Analysis</h2>
+        <div class="figure-card">
+          <figure id="fig-6-3">
+            <img class="chart-img" src="/charts\section6\Figure_6_3_Margin_Distribution.png" alt="Margin Distribution" loading="lazy" decoding="async" />
+            <figcaption>Figure 6.3 — Contribution margin distribution across SKUs.</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="orir">
+        <h3>O — Observation</h3>
+        <p><span class="metric">846</span> SKUs operate below the 15% margin threshold, with <span class="metric">95</span> products in negative margin. Aggregate margin-at-risk tallies to ₹ 2242359.16 based on current price-cost proxies.</p>
+        <h3>R — Rationale</h3>
+        <p>Margin erosion clusters in high-velocity produce with tighter spreads and dairy SKUs with price rigidity. Opaque cost swings and uncontrolled discounting drive the gap to 20% target.</p>
+        <h3>I — Implication</h3>
+        <p>Unaddressed, low-margin segments depress contribution and constrain working capital, raising exposure to write-downs on perishable inventory.</p>
+        <h3>R — Recommendation</h3>
+        <p>Execute a two-tier play: immediate price hygiene for sub-10% items; structural renegotiation and pack-size optimization to move clusters to ≥20% margin.</p>
+      </div>
+    </div>
+
+    <div class="section section-grid" id="sec-6-4">
+      <div>
+        <h2>6.4 ABC Classification (Pareto)</h2>
+        <div class="figure-card">
+          <figure id="fig-6-4">
+            <img class="chart-img" src="/charts\section6\Figure_6_4_ABC_Pareto.png" alt="ABC Pareto" loading="lazy" decoding="async" />
+            <figcaption>Figure 6.4 — Revenue share by ABC class.</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="orir">
+        <h3>O — Observation</h3>
+        <p>Class composition shows A-tier concentration with revenue shares A: 49.8%, B: 30.1%, C: 20.0%. Class counts: {'C': 821, 'B': 98, 'A': 39}.</p>
+        <h3>R — Rationale</h3>
+        <p>Concentrated revenue distribution indicates dependency on limited SKUs; strategic resilience demands margin discipline and supply continuity for A-tier.</p>
+        <h3>I — Implication</h3>
+        <p>Operational governance must prioritize A-tier replenishment and B-tier optimization, while C-tier rationalization reduces tail complexity without revenue penalty.</p>
+        <h3>R — Recommendation</h3>
+        <p>Institute ABC-led SLA tiers, differentiated promos, and replenishment cadence to lock A-tier consistency and lift B-tier yield.</p>
+      </div>
+    </div>
+
+    <div class="section section-grid" id="sec-6-5">
+      <div>
+        <h2>6.5 Slow Movers (DSLS)</h2>
+        <div class="figure-card">
+          <figure id="fig-6-5">
+            <img class="chart-img" src="/charts\section6\Figure_6_5_Slow_Movers_DSLS.png" alt="Slow Movers DSLS" loading="lazy" decoding="async" />
+            <figcaption>Figure 6.5 — DSLS distribution with long-tail risk.</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="orir">
+        <h3>O — Observation</h3>
+        <p>DSLS risk group includes <span class="metric">97</span> SKUs over 90 days and <span class="metric">76</span> over 120 days since last sale, signaling aging inventory exposure.</p>
+        <h3>R — Rationale</h3>
+        <p>Demand decay and assortment drift drive DSLS accumulation; lack of timed markdowns and substitution guidance prolongs shelf inactivity.</p>
+        <h3>I — Implication</h3>
+        <p>Extended DSLS increases carrying costs and raises write-down probability, especially in perishables and niche packaged goods.</p>
+        <h3>R — Recommendation</h3>
+        <p>Deploy markdown ladders at 45/90/120-day gates, bundle slow movers with A/B-tier SKUs, and refresh assortment to remove non-performing long-tail items.</p>
+      </div>
+    </div>
+
+    <div class="section section-grid" id="sec-6-6">
+      <div>
+        <h2>6.6 Price Variance (Top 20)</h2>
+        <div class="figure-card">
+          <figure id="fig-6-6">
+            <img class="chart-img" src="/charts\section6\Figure_6_6_Price_Variance_Top20.png" alt="Price Variance Top 20" loading="lazy" decoding="async" />
+            <figcaption>Figure 6.6 — Misalignment scores vs revenue for top 20 SKUs.</figcaption>
+          </figure>
+        </div>
+      </div>
+      <div class="orir">
+        <h3>O — Observation</h3>
+        <p>Top-20 price variance group drives ₹ 1490145.73 revenue with mean price CV of 36.6% (based on available CV statistics), exposing pricing governance gaps.</p>
+        <h3>R — Rationale</h3>
+        <p>Price bands drift due to ad-hoc discounting, supplier changes, and channel leakage, amplifying CV and customer perception volatility.</p>
+        <h3>I — Implication</h3>
+        <p>High variance erodes margin consistency and undermines loyalty; misalignment translates into measurable revenue exposure as captured in score aggregation.</p>
+        <h3>R — Recommendation</h3>
+        <p>Institute control charts for price governance, enforce SKU-level price corridors, and audit promotions to maintain CV &lt;5% for sensitive SKUs.</p>
+      </div>
+    </div>
+
+    <hr />
+    <p class="src">Traceability: Metrics computed via scripts/section6_extraction.py using project CSVs. Generated: 2025-11-08 04:44.</p>
+  </main>
+  <script src="/preview/section6/script.js" defer></script>
+</body>
+</html>

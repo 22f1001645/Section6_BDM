@@ -1,0 +1,312 @@
+# SECTION 6: ORIR QUICK REFERENCE & EXECUTION BLUEPRINT
+## Pure'O Naturals BDM Mid-Term | Results & Findings
+
+---
+
+## ORIR FRAMEWORK AT A GLANCE
+
+```
+┌─ OBSERVATION (The FACT) ─────────────────────────────────────┐
+│ What does the data show?                                      │
+│ Be specific. Include numbers. Use superlatives (highest,      │
+│ lowest, fastest, slowest). Never vague.                       │
+│ Example: "770 SKUs (88%) show CV > 25%, top 10 exhibit CV    │
+│ 85-142%, only 15 SKUs maintain CV < 10%"                     │
+└───────────────────────────────────────────────────────────────┘
+                              ↓
+┌─ REASON (The ROOT CAUSE) ────────────────────────────────────┐
+│ Why did this happen? What operational factors explain it?    │
+│ Link to business context: seasonality, customer behavior,    │
+│ competitive dynamics, internal policy.                        │
+│ Example: "Volatility driven by (1) seasonal patterns—        │
+│ beverages peak Apr-Jun monsoon prep; (2) festival cycles—   │
+│ sales spike pre-Diwali; (3) product mix—staples stable,     │
+│ specialty items erratic"                                     │
+└───────────────────────────────────────────────────────────────┘
+                              ↓
+┌─ IMPLICATION (The BUSINESS CONSEQUENCE) ─────────────────────┐
+│ What's at stake? Quantify the impact financially.            │
+│ Link to profitability, cash flow, operational efficiency.    │
+│ Example: "₹240k lost sales from stockouts + ₹176k overstock  │
+│ carrying cost + ₹X working capital inefficiency = ₹Y total  │
+│ business impact"                                             │
+└───────────────────────────────────────────────────────────────┘
+                              ↓
+┌─ RECOMMENDATION (The ACTIONABLE PATH) ────────────────────────┐
+│ What should be done? SMART: Specific, Measurable, Actionable,│
+│ Realistic, Time-bound.                                       │
+│ Tier by timeline: Immediate (0-1 mo), Short-term (1-3 mo),  │
+│ Strategic (3-6 mo), Long-term (6-12 mo).                    │
+│ Example: "Phase 1 (Week 1-2): Implement quadrant-based      │
+│ safety stock. Phase 2 (Week 2-4): Dynamic adjustment.       │
+│ Target: Reduce CV 47% → <40%, free ₹88k working capital"   │
+└───────────────────────────────────────────────────────────────┘
+```
+
+---
+
+## SECTION 6 FINDINGS MAPPING TO CSV SOURCES
+
+### **FINDING 1: Revenue Volatility (Coefficient of Variation)**
+
+**Chart Type:** Histogram + Bar chart of CV distribution  
+**Data Source:** `high_volatility_products.csv` (72 KB)  
+**Key Statistics to Extract:**
+- Overall CV: 47% (daily revenue)
+- High-volatility SKUs: 770/87 with CV > 25%
+- Top 10 volatile SKUs CV range: 85-142%
+- Stable SKUs (CV < 10%): 15 products
+
+**ORIR Template:**
+```
+O: 770 SKUs (88%) exhibit CV > 25%; top 10 show CV 85-142%
+R: Seasonal demand (beverages peak Apr-Jun), festival cycles, category mix
+I: ₹240k lost sales from stockouts + ₹176k overstock cost = operational risk
+R: Implement quadrant safety stock, dynamic adjustment by season
+```
+
+---
+
+### **FINDING 2: Rolling Volatility Peaks (Seasonal Pattern)**
+
+**Chart Type:** Line chart with annotation peaks  
+**Data Source:** `rolling_volatility.csv` (2.5 MB)  
+**Key Statistics to Extract:**
+- April rolling σ: ~32%
+- May-June peak: 48-52% (62% increase from baseline)
+- July-September: 24-28% (55% decrease from peak)
+- Beverages: June peak 52%, August trough 18%
+
+**ORIR Template:**
+```
+O: June rolling volatility peaks at 52%, 62% above July baseline; Beverages trace temperature
+R: Monsoon prep stocking, festival season, budget cycles post-peak spending
+I: June requires ₹2.22M inventory; current planning static, creates Apr-May stockouts (₹52k loss)
+R: Procurement calendar: Order by Apr 15 for Jun peak, clearance Jul planning
+```
+
+---
+
+### **FINDING 3: Low-Margin Product Concentration**
+
+**Chart Type:** Margin distribution histogram + Pareto curve  
+**Data Source:** `low_margin.csv` (78 KB)  
+**Key Statistics to Extract:**
+- Low-margin SKUs: 42 of 87 (48%) with margin <15%
+- Contribution: 42 SKUs = ₹7.24M revenue but ₹1.09M contribution (18% of total)
+- Mean margin: 17.3%; Median: 14.8%
+- Loss-makers: 3 SKUs with negative margins (-2% to -5%)
+- Annual loss from loss-makers: ₹12.3k
+
+**ORIR Template:**
+```
+O: 42 SKUs (48%) exhibit margins <15%; 3 SKUs negative margin; 18% contribution from 28% revenue
+R: Strategic positioning (staples compete on price), pricing uniformity (no elasticity adjustment)
+I: ₹12.3k annual loss from 3 SKUs; ₹1 in low-margin products yields ₹0.15 contribution vs ₹0.45 for high-margin
+R: Price increases on staples (Salt +10%, Spices +17%), discontinue loss-makers, bundling strategy
+```
+
+---
+
+### **FINDING 4: ABC Classification (Pareto Concentration)**
+
+**Chart Type:** Pareto chart (bar + cumulative line)  
+**Data Source:** `abc_classification.csv` (35 KB)  
+**Key Statistics to Extract:**
+- Class A: 12 SKUs (14%) = 68% revenue (₹17.27M)
+- Class B: 14 SKUs (16%) = 14% revenue (₹3.56M)
+- Class C: 61 SKUs (70%) = 18% revenue (₹4.57M)
+- Top 5 SKUs: ₹8.96M (35% of total, 5.7% of portfolio)
+
+**ORIR Template:**
+```
+O: Class A 12 SKUs = 68% revenue; Class C 61 SKUs = 18% revenue; Pareto 80-20 confirmed
+R: Seasonal bestsellers (fruits Apr-Aug), consistency (dairy weekly repeat), fragmented niche demand
+I: Class A underallocated shelf (18% space for 68% revenue); Class C overallocated (42% space for 18%)
+R: Reallocate shelf: Class A 28%, Class B 25%, Class C 22%; monitor Class A daily, Class C monthly
+```
+
+---
+
+### **FINDING 5: Slow-Movers & Wastage (DSLS Analysis)**
+
+**Chart Type:** Bar chart (DSLS by product) + Alert heatmap  
+**Data Source:** `slow_moving_products.csv` (2.3 KB) + `wastage_risk.csv` (95 KB)  
+**Key Statistics to Extract:**
+- DSLS >90 days: 23 SKUs (26% portfolio) holding ₹176.4k inventory
+- Extreme slow movers (DSLS >120 days): 5 SKUs, examples—Bitter Guard Pickle (144d), Cheese Spread (106d)
+- Annual carrying cost for 23 extreme slow movers: ₹44.1k (exceeds their annual revenue ₹27.6k)
+- Total slow-mover inventory (DSLS >60): ₹270k on 31% of SKUs
+
+**ORIR Template:**
+```
+O: 23 SKUs (26%) show DSLS >90 days; 5 extreme cases >120d; ₹176.4k carrying cost for ₹27.6k revenue
+R: SKU introduction without forecast, seasonal misalignment, discontinued preferences, supplier overstocking
+I: ₹44.1k annual carrying cost > ₹27.6k revenue; net ₹16.5k annual loss; spoilage risk 8-12% on extremes
+R: Tier 1 (>120d, 5 SKUs): 30% discount or donate. Tier 2 (90-120d): 15% discount. DSLS threshold policy
+```
+
+---
+
+### **FINDING 6: Price Variance & Revenue Leakage**
+
+**Chart Type:** Bar chart (top 20 misaligned SKUs by CV)  
+**Data Source:** `pricing_misalignment_top20.csv` (1.7 KB)  
+**Key Statistics to Extract:**
+- Top 20 misaligned SKUs: Unit price CV 16.8% (vs acceptable <5%)
+- Example: Product A ₹8-₹12 (mean ₹10, CV 18%)
+- Revenue at risk: 18% × ₹11.4M (45% of total from top 20) = ₹2.05M exposure
+- Estimated annual leakage: ₹512k (50% of variance × 50% downward error assumption)
+
+**ORIR Template:**
+```
+O: Top 20 SKUs show unit price CV 16.8% vs acceptable <5%; Product A ₹8-₹12 range on ₹10 mean
+R: POS misconfiguration (duplicate codes), variant mix (sizes), manual discounts, billing errors
+I: ₹512k annual revenue leakage; customer trust erosion; ₹12k staff time on price verification
+R: POS audit & consolidation, pricing matrix by size, staff training, 99% consistency target
+```
+
+---
+
+## SECTION 6 WRITING SEQUENCE
+
+### **Step 1: Opening Paragraph (Boilerplate)**
+
+```
+Section 6 presents key analytical findings derived from the six methods described in 
+Section 5. Using primary data from Pure'O Naturals 0007-Anjaneya Nager spanning April-
+September 2025 (N=183 days, M=13 columns), six major findings emerge addressing revenue 
+volatility, profitability pressure, inventory misalignment, and pricing consistency. Each 
+finding follows the ORIR framework—Observation, Reason, Implication, Recommendation—
+providing quantified evidence and actionable business recommendations tied to the four 
+problem objectives. Collectively, these findings quantify ₹₹X in at-risk revenue, ₹Y in 
+operational inefficiency, and ₹Z in improvement opportunity, enabling evidence-based 
+strategic decision-making.
+```
+
+---
+
+### **Step 2: For EACH Finding (6-8 times)**
+
+**Repeat this block:**
+
+```
+## Finding N: [Title] ([Method Name])
+
+**Figure 6.X.X — [Chart Type]: [Purpose]**
+*Source: `source_file.csv`; [Description]*
+
+OBSERVATION
+[What does data show? Include specific numbers, ranges, extremes. 2-3 sentences.]
+
+REASON
+[Why did this happen? Business context, operational factors. 2-3 sentences.]
+
+IMPLICATION
+[What's at stake? Quantify in ₹, percentages, operational impact. 2-3 sentences.]
+
+RECOMMENDATION
+[What should be done? Phase 1 / Phase 2 / Phase 3 with time-bound actions. 
+Specific metrics, responsible party, expected outcomes. 3-4 sentences.]
+
+TARGET METRICS
+- Metric 1: Baseline → Target | Timeline
+- Metric 2: Baseline → Target | Timeline
+```
+
+---
+
+### **Step 3: Closing Paragraph**
+
+```
+These six findings collectively quantify Pure'O Naturals' operational challenges and 
+quantify improvement opportunity: revenue volatility creates ₹X working capital strain, 
+low-margin products erode ₹Y annual profit, slow-movers lock ₹Z in excess inventory, and 
+pricing inconsistency leaks ₹W annually. Through systematic implementation of the tiered 
+recommendations above—prioritized by timeline (immediate: Week 1-2, short-term: Week 2-4, 
+strategic: Month 1-3, long-term: Month 3-6)—Pure'O Naturals can achieve concrete outcomes: 
+stabilize revenue CV from 47% to <40%, eliminate negative-margin SKUs, reduce slow-mover 
+inventory by 60%, and recover ₹512k annual revenue leakage. Total projected 12-month impact: 
+₹[SUM] working capital release + ₹[SUM] profit improvement, enabling sustainable competitive 
+positioning in the organized organic retail sector.
+```
+
+---
+
+## SECTION 6 FORMATTING CHECKLIST
+
+- [ ] **Section Heading:** "SECTION 6: RESULTS AND FINDINGS" (12pt, bold, centered)
+- [ ] **Finding Subheadings:** "Finding N: [Title]" (11pt, bold, left-aligned)
+- [ ] **Figure References:** "Figure 6.X.X — [Type]: [Title]" with data source
+- [ ] **ORIR Structure:** Clear labels or implicit structure (O in paragraph 1, R in 2, I in 3, Rec in 4)
+- [ ] **Paragraph Spacing:** Single paragraph break between sections, double before new finding
+- [ ] **Font:** Times New Roman, 12pt throughout
+- [ ] **Spacing:** 1.5 line spacing, justified alignment
+- [ ] **Quantification:** Every metric statement includes ₹, %, or #
+- [ ] **Professional Tone:** Third-person, passive voice, no "I/we"
+- [ ] **Page Layout:** Balanced text/visual ratio, no orphaned charts, charts integrated inline
+
+---
+
+## ELITE SECTION 6 PHRASING EXAMPLES
+
+### ✅ ELITE (Use This)
+
+"Slow-mover analysis identifies 23 products (26% of portfolio) with DSLS >90 days, 
+collectively holding ₹176.4k inventory generating <₹2.3k monthly revenue. Carrying cost 
+for these 23 SKUs (₹44.1k annually) EXCEEDS their total annual revenue (₹27.6k), 
+resulting in net ₹16.5k annual loss before spoilage adjustment."
+
+### ❌ WEAK (Avoid This)
+
+"Some products don't sell well and are costing the business money. We should get rid 
+of them to save space and money."
+
+---
+
+## SECTION 6 WORD COUNT TARGETS
+
+| Component | Target Words | Actual |
+|-----------|--------------|--------|
+| Opening paragraph | 100-150 | __ |
+| Finding 1 (Volatility) | 350-400 | __ |
+| Finding 2 (Seasonal) | 350-400 | __ |
+| Finding 3 (Low-Margin) | 350-400 | __ |
+| Finding 4 (ABC) | 350-400 | __ |
+| Finding 5 (Slow-Movers) | 350-400 | __ |
+| Finding 6 (Pricing) | 350-400 | __ |
+| Closing paragraph | 100-150 | __ |
+| **TOTAL** | **2,400-2,900** | __ |
+
+---
+
+## SECTION 6 QUALITY GATES
+
+**Before Submission, Verify:**
+
+1. **ORIR Completeness:** Every finding explicitly addresses all 4 components
+2. **Quantification:** 95%+ of claims include numbers (no vague statements)
+3. **Business Impact:** Every implication quantifies ₹ at stake
+4. **Actionability:** Every recommendation includes phase, timeline, responsible party, metric
+5. **Chart Integration:** Each finding has 1 supporting chart with caption
+6. **Data Traceability:** Every statistic linked to source CSV file
+7. **Problem Mapping:** Each finding explicitly addresses ≥1 of 4 problem objectives
+8. **Professional Tone:** Zero first-person language, consistent third-person
+9. **Total Length:** 2,400-2,900 words (2-3 pages with charts integrated)
+10. **Formatting:** Times New Roman 12pt, 1.5 spacing, justified, page numbers present
+
+---
+
+## FINAL EXECUTION TIMELINE
+
+**Day 1:** Extract statistics from 6 CSV files, populate ORIR template cells  
+**Day 2:** Write Findings 1-2 (Volatility findings, ~800 words)  
+**Day 3:** Write Findings 3-4 (Margin & ABC findings, ~800 words)  
+**Day 4:** Write Findings 5-6 (Inventory & Pricing findings, ~800 words)  
+**Day 5:** Add opening/closing paragraphs, quality gate verification, formatting  
+
+**Total: 5 days, 2,400-2,900 words, 6-8 findings, 10/10 mark target**
+
+---
+
+**Section 6 is now ready for execution. Apply ORIR rigorously. Quantify obsessively. Recommend decisively. Excellence awaits.**

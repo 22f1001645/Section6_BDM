@@ -1,0 +1,20 @@
+<div class="container section6-embed">
+    <h1>Section 6 — Results & Findings</h1>
+    <p class="src">Data sources: high_volatility_products.csv, rolling_volatility.csv, low_margin.csv, abc_classification.csv, slow_movers.csv, pricing_misalignment_top20.csv, price_variance_statistics.csv</p>
+
+    <div class="section">
+      <h2>6.1 Revenue Volatility (CV)</h2>
+      <figure>
+        <img src="/charts\section6\Figure_6_1_CV_Distribution.png" alt="CV Distribution" style="width:100%" />
+        <figcaption>Figure 6.1.1 — Distribution of sales volatility (CV) across SKUs.</figcaption>
+      </figure>
+      <div class="orir">
+        <h3>O — Observation</h3>
+        <p>Across the portfolio, <span class="metric">746</span> SKUs exhibit coefficient of variation (CV) above 25%, indicating substantial demand volatility. The worst ten SKUs show CVs ranging from 116.7% up to 238.6%, which materially impacts forecasting and stocking accuracy.</p>
+        <h3>R — Rationale</h3>
+        <p>High CV typically reflects seasonality, promotion windows, and product mix transitions. In produce, supply-side variability interacts with demand spikes, creating asymmetric risk where stockouts and overstock can co-exist within weeks.</p>
+        <h3>I — Implication</h3>
+        <p>Volatility above 25% correlates with increased stockout risk and carrying costs. Targeted smoothing via safety stock rules and promotion governance can mitigate loss of sales while avoiding inventory write-down.</p>
+        <h3>R — Recommendation</h3>
+        <p>Prioritize volatility dampening for the top decile SKUs using weekly replinishment cadence, demand shaping (bundles), and substitution pathways for highly erratic items.</p>
+      </div>
