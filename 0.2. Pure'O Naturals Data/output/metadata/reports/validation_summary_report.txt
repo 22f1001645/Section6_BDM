@@ -1,0 +1,20 @@
+Total analyzed: 960
+Auto-mapped: 616 (64.17%)
+Owner-required: 233 (24.27%)
+Confidence statistics: avg=79.24, ≥75%=698
+Web validation success rate: 96.98%
+Unknown final category: 29 (3.02%)
+Tier distribution:
+- AUTO-MAP: 616
+- CONFIDENT: 82
+- AMBIGUOUS: 233
+- UNCERTAIN: 29
+Category distribution post-mapping:
+- Beverages: 466 (48.54%)
+- Snacks: 197 (20.52%)
+- Dairy: 78 (8.12%)
+- Home Care: 8 (0.83%)
+- Breakfast: 149 (15.52%)
+- Personal Care: 33 (3.44%)
+- UNKNOWN: 29 (3.02%)
+Quality signals: ✅ Canonical-only mapping; ✅ Reasoning per row; ✅ Revenue-weighted sorting

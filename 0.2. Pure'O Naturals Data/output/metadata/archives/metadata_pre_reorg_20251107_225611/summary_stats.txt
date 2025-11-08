@@ -1,0 +1,4 @@
+Auto-mapped count: 275
+Flagged for review count: 46
+Remaining unknown count: 639
+Percentage distribution: auto=28.65%, flagged=4.79%, unknown=66.56%

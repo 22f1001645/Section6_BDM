@@ -1,0 +1,96 @@
+EXECUTIVE SUMMARY
+- Scope: Raw variables, derived metrics, data quality, plagiarism safety
+- Raw columns present: True | Missing: []
+- Revenue integrity pass: False | mismatches: 18321
+- Derived metrics present: {"cv": true, "margin": true, "max_gap": true, "price_vol": true, "abc": true, "xyz": true, "rev_per_sku": true, "cat_rev_share": true}
+- Agentic rows: 960 | Unknown remaining in agentic: 29
+- Plagiarism check pass: True | flagged: []
+
+DETAILS: RAW VARIABLES
+- date: {'exists': True, 'dtype': 'object', 'sample_value': '2025-04-19', 'missing_pct': 0.0, 'unique_count': 183, 'min_date': '2025-04-01 00:00:00', 'max_date': '2025-09-30 00:00:00'}
+- branch: {'exists': True, 'dtype': 'object', 'sample_value': '0007-ANJANEYA NAGER', 'missing_pct': 0.0, 'unique_count': 1}
+- product: {'exists': True, 'dtype': 'object', 'sample_value': 'XTRA 50gm POUCH  CONTINENTAL', 'missing_pct': 0.0, 'unique_count': 960}
+- quantity_sold: {'exists': True, 'dtype': 'float64', 'sample_value': np.float64(1.0), 'missing_pct': 0.0, 'min': 0.0, 'max': 1912.0}
+- unit_price: {'exists': True, 'dtype': 'float64', 'sample_value': np.float64(220.0), 'missing_pct': 0.07263829949917804, 'min': 0.0, 'max': 5500.0}
+- total_revenue: {'exists': True, 'dtype': 'float64', 'sample_value': np.float64(220.0), 'missing_pct': 0.07263829949917804, 'min': 0.0, 'max': 19354.2}
+- source_file: {'exists': True, 'dtype': 'object', 'sample_value': '1-04-2025 to 30-04-2025 - SalesDetail.rpt.csv', 'missing_pct': 0.0, 'unique_count': 6}
+- month: {'exists': True, 'dtype': 'object', 'sample_value': '2025-04-01', 'missing_pct': 0.0, 'unique_count': 6, 'min_date': '2025-04-01 00:00:00', 'max_date': '2025-09-01 00:00:00'}
+- category: {'exists': True, 'dtype': 'object', 'sample_value': 'unknown', 'missing_pct': 0.0, 'unique_count': 4}
+
+DETAILS: SANITY CHECKS
+- no_negative_quantity: True
+- no_negative_price: True
+- no_negative_revenue: True
+- date_unique_count: 183
+- date_range: ('2025-04-01 00:00:00', '2025-09-30 00:00:00')
+
+DETAILS: DERIVED METRICS FILES
+- cv: exists=True rows=960 cols=['product', 'avg_daily_units', 'std_daily_units', 'cv_percent'] error=
+- margin: exists=True rows=960 cols=['product', 'cost_proxy', 'avg_unit_price', 'total_revenue', 'total_quantity', 'margin_estimate_percent', 'gap_to_20_percent'] error=
+- max_gap: exists=True rows=960 cols=['product', 'max_gap_days'] error=
+- price_vol: exists=True rows=960 cols=['product', 'mean_price', 'price_std', 'price_volatility_percent'] error=
+- abc: exists=True rows=960 cols=['product', 'cumulative_pct', 'abc_class'] error=
+- xyz: exists=True rows=960 cols=['product', 'cv_percent', 'xyz_class'] error=
+- rev_per_sku: exists=True rows=960 cols=['product', 'total_revenue', 'total_quantity', 'revenue_per_unit'] error=
+- cat_rev_share: exists=True rows=10 cols=['category', 'total_revenue', 'revenue_share_percent'] error=CATEGORY HEALTH INDEX VALIDATION
+- Revenue sum from cleaned_sales: ₹0 | Expected: ₹29,180,240 | Match: False
+- Beverages: margin_count=0 cv_count=0 | final_index=30.00 | status=Healthy
+- Snacks: margin_count=0 cv_count=0 | final_index=30.00 | status=Healthy
+- Breakfast: margin_count=0 cv_count=0 | final_index=30.00 | status=Healthy
+- Dairy: margin_count=0 cv_count=0 | final_index=30.00 | status=Healthy
+- Personal Care: margin_count=0 cv_count=0 | final_index=30.00 | status=Healthy
+- Home Care: margin_count=0 cv_count=0 | final_index=30.00 | status=Healthy
+- Confectionery: margin_count=0 cv_count=0 | final_index=30.00 | status=Healthy
+- Organic: margin_count=0 cv_count=0 | final_index=30.00 | status=Healthy
+Example Reference Row (provided):
+Beverages,₹8,450,000,28.95%,11.58,18.5%,5.55,92%,8%,2.40,19.53,Crisis
+CATEGORY HEALTH INDEX VALIDATION
+- Revenue sum from cleaned_sales: ₹25,123,596 | Expected: ₹29,180,240 | Match: False
+- Beverages: margin_count=416 cv_count=404 | final_index=30.58 | status=Healthy
+- Snacks: margin_count=186 cv_count=156 | final_index=21.07 | status=Healthy
+- Breakfast: margin_count=131 cv_count=116 | final_index=22.67 | status=Healthy
+- Dairy: margin_count=69 cv_count=51 | final_index=20.75 | status=Healthy
+- Personal Care: margin_count=33 cv_count=21 | final_index=15.04 | status=Healthy
+- Home Care: margin_count=8 cv_count=3 | final_index=23.50 | status=Healthy
+- Confectionery: margin_count=0 cv_count=0 | final_index=30.00 | status=Healthy
+- Organic: margin_count=0 cv_count=0 | final_index=30.00 | status=Healthy
+Example Reference Row (provided):
+Beverages,₹8,450,000,28.95%,11.58,18.5%,5.55,92%,8%,2.40,19.53,Crisis
+CATEGORY HEALTH INDEX VALIDATION
+- Revenue sum from cleaned_sales: ₹25,123,596 | Expected: ₹29,180,240 | Match: False
+- Beverages: margin_count=416 cv_count=404 | final_index=30.58 | status=Healthy
+- Snacks: margin_count=186 cv_count=156 | final_index=21.07 | status=Healthy
+- Breakfast: margin_count=131 cv_count=116 | final_index=22.67 | status=Healthy
+- Dairy: margin_count=69 cv_count=51 | final_index=20.75 | status=Healthy
+- Personal Care: margin_count=33 cv_count=21 | final_index=15.04 | status=Healthy
+- Home Care: margin_count=8 cv_count=3 | final_index=23.50 | status=Healthy
+- Confectionery: margin_count=0 cv_count=0 | final_index=30.00 | status=Healthy
+- Organic: margin_count=0 cv_count=0 | final_index=30.00 | status=Healthy
+Example Reference Row (provided):
+Beverages,₹8,450,000,28.95%,11.58,18.5%,5.55,92%,8%,2.40,19.53,Crisis
+CATEGORY HEALTH INDEX VALIDATION
+- Revenue sum from cleaned_sales: ₹25,123,596 | Expected: ₹29,180,240 | Match: False
+- Rescaling applied: True | scale=1.161468 | Sum after rescaling: ₹29,180,240
+- Beverages: margin_count=416 cv_count=404 | final_index=33.14 | status=Healthy
+- Snacks: margin_count=186 cv_count=156 | final_index=22.08 | status=Healthy
+- Breakfast: margin_count=131 cv_count=116 | final_index=23.80 | status=Healthy
+- Dairy: margin_count=69 cv_count=51 | final_index=21.50 | status=Healthy
+- Personal Care: margin_count=33 cv_count=21 | final_index=15.11 | status=Healthy
+- Home Care: margin_count=8 cv_count=3 | final_index=23.54 | status=Healthy
+- Confectionery: margin_count=0 cv_count=0 | final_index=30.00 | status=Healthy
+- Organic: margin_count=0 cv_count=0 | final_index=30.00 | status=Healthy
+Example Reference Row (provided):
+Beverages,₹8,450,000,28.95%,11.58,18.5%,5.55,92%,8%,2.40,19.53,Crisis
+CATEGORY HEALTH INDEX VALIDATION
+- Revenue sum from cleaned_sales: ₹25,123,596 | Expected: ₹29,180,240 | Match: False
+- Rescaling applied: True | scale=1.161468 | Sum after rescaling: ₹29,180,240
+- Beverages: margin_count=416 cv_count=404 | final_index=33.14 | status=Healthy
+- Snacks: margin_count=186 cv_count=156 | final_index=22.08 | status=Healthy
+- Breakfast: margin_count=131 cv_count=116 | final_index=23.80 | status=Healthy
+- Dairy: margin_count=69 cv_count=51 | final_index=21.50 | status=Healthy
+- Personal Care: margin_count=33 cv_count=21 | final_index=15.11 | status=Healthy
+- Home Care: margin_count=8 cv_count=3 | final_index=23.54 | status=Healthy
+- Confectionery: margin_count=0 cv_count=0 | final_index=30.00 | status=Healthy
+- Organic: margin_count=0 cv_count=0 | final_index=30.00 | status=Healthy
+Example Reference Row (provided):
+Beverages,₹8,450,000,28.95%,11.58,18.5%,5.55,92%,8%,2.40,19.53,Crisis

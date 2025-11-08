@@ -1,0 +1,33 @@
+QA Checks — Agentic Categorization
+
+ERROR Non-canonical final category: DRUMSTICK -> UNKNOWN
+ERROR Non-canonical final category: FIGS AFGHANI NORMAL KG FLYBERRY -> UNKNOWN
+ERROR Non-canonical final category: PISTA GREEN SHELLED KG FLYBERRY -> UNKNOWN
+ERROR Non-canonical final category: DRIED BLUEBERRY KG FLYBERRY -> UNKNOWN
+ERROR Non-canonical final category: FlyberryBrazilNut -> UNKNOWN
+ERROR Non-canonical final category: Kashmir Comb Honey 500g BT -> UNKNOWN
+ERROR Non-canonical final category: FLYBERRY STRAWBERRY DEHYDRATED REGULAR -> UNKNOWN
+ERROR Non-canonical final category: MINI MEDJOUL FLYBERRY loose kgs -> UNKNOWN
+ERROR Non-canonical final category: FlyberryMacadamia -> UNKNOWN
+ERROR Non-canonical final category: SRI LALITHA HMT RICE 10KG -> UNKNOWN
+ERROR Non-canonical final category: DEHYDRATED MANGO KG FLYBERRY -> UNKNOWN
+ERROR Non-canonical final category: XTRA SACHET 2.3G CONTINENTAL -> UNKNOWN
+ERROR Non-canonical final category: DEHYDRATED PINEAPPLE KG FLYBERRY -> UNKNOWN
+ERROR Non-canonical final category: SRI LALITHA HMT RICE 26KG -> UNKNOWN
+ERROR Non-canonical final category: DEHYDRATED KIWI KG FLYBERRY -> UNKNOWN
+ERROR Non-canonical final category: LOTUS TANGO 20G -> UNKNOWN
+ERROR Non-canonical final category: CINNAMON DALCHINI KG FLYBERRY -> UNKNOWN
+ERROR Non-canonical final category: DRIED BLACKBERRY KG FLYBERRY -> UNKNOWN
+ERROR Non-canonical final category: LOTUS KAJOOS 13.5 G -> UNKNOWN
+ERROR Non-canonical final category: THAI RED CHILLI KG ENGLISH ITEM SAMBERRY -> UNKNOWN
+ERROR Non-canonical final category: CUMIN JEERA KG FLYBERRY -> UNKNOWN
+ERROR Non-canonical final category: BANANA LEAF -> UNKNOWN
+ERROR Non-canonical final category: ORANGE DRAGES KG LOOSE FLYBERRY -> UNKNOWN
+ERROR Non-canonical final category: DEHYDRATED PAPAYA  KGS FLYBERRY -> UNKNOWN
+ERROR Non-canonical final category: THAMALAPAKULU -> UNKNOWN
+ERROR Non-canonical final category: DEHYDRATED GINGER  KGS FLYBERRY -> UNKNOWN
+ERROR Non-canonical final category: HOME DELIVERY CHARGES -> UNKNOWN
+ERROR Non-canonical final category: PHOOL MAKHANA 250g -> UNKNOWN
+ERROR Non-canonical final category: TURNIPS KG ENGLISH ITEM SAMBERRY -> UNKNOWN
+
+OK: 931 | WARN: 0 | ERROR: 29

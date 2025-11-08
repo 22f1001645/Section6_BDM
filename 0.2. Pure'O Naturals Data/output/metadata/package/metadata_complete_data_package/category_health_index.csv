@@ -1,0 +1,9 @@
+category,revenue_total_inr,revenue_share_pct,revenue_share_score,avg_margin_pct,margin_score,avg_cv_pct,inverse_volatility_pct,inverse_vol_score,final_health_index,health_status
+Beverages,"₹13,442,277",46.07%,18.43,1.8%,0.54,53%,47%,14.17,33.14,Healthy
+Snacks,"₹5,348,692",18.33%,7.33,1.4%,0.41,52%,48%,14.34,22.08,Healthy
+Breakfast,"₹5,893,528",20.20%,8.08,2.6%,0.77,50%,50%,14.95,23.80,Healthy
+Dairy,"₹3,952,832",13.55%,5.42,1.5%,0.45,48%,52%,15.63,21.50,Healthy
+Personal Care,"₹380,853",1.31%,0.52,0.7%,0.22,52%,48%,14.37,15.11,Healthy
+Home Care,"₹162,058",0.56%,0.22,0.0%,0.01,22%,78%,23.30,23.54,Healthy
+Confectionery,₹0,0.00%,0.00,0.0%,0.00,0%,100%,30.00,30.00,Healthy
+Organic,₹0,0.00%,0.00,0.0%,0.00,0%,100%,30.00,30.00,Healthy

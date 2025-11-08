@@ -4,7 +4,8 @@
 # Keep this .gitignore itself
 !/.gitignore
 
-# Allow the Section 6 subtree only
+# Track full Section 4–6 report tree and Pure'O Naturals data
 !/2. BDM Mid Term Report/
-!/2. BDM Mid Term Report/Section 6 - Results & Findings/
-!/2. BDM Mid Term Report/Section 6 - Results & Findings/**
+!/2. BDM Mid Term Report/**
+!/0.2. Pure'O Naturals Data/
+!/0.2. Pure'O Naturals Data/**

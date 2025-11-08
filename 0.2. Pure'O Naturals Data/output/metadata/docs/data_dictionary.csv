@@ -1,0 +1,9 @@
+Column Name,Data Type,Sample Value,Range/Domain,Unique Values,Missing %,Business Purpose,Problem Link
+date,Date (YYYY-MM-DD),2025-04-19 00:00:00,2025-04-01 to 2025-09-30,183,0.0,Track temporal sales patterns; identify seasonality,"Volatility, Category Mix"
+branch,Text,0007-ANJANEYA NAGER,Varies,1,0.0,Identify store location; enable multi-branch expansion,Future scope
+product,Text,XTRA 50gm POUCH  CONTINENTAL,Varies,960,0.0,Granular product tracking; inventory management,All 4 problems
+quantity_sold,Float,1.0,0.0 to 1912.0,3736,0.0,Measure product demand; detect fast/slow movers,"Volatility, Wastage"
+unit_price,Float,220.0,0.0 to 5500.0,4715,0.07,Track pricing; detect pricing inconsistency,Pricing Instability
+total_revenue,Float,220.0,0.0 to 19354.2,19300,0.07,Daily transaction value; margin diagnostics,Margin Health
+month,Date (YYYY-MM-DD),2025-04-01 00:00:00,2025-04-01 to 2025-09-01,6,0.0,Monthly aggregation; trend analysis,All problems
+category,Text,vegetables,Varies,3,62.28,Category performance; mix optimization,Category Mix

@@ -1,0 +1,275 @@
+# SECTION 5: 25/25 MARKS QUICK-REFERENCE CHECKLIST
+## Pure'O Naturals BDM Mid-Term Project
+
+---
+
+## PRE-WRITING PHASE
+
+### Content Architecture (Before you write):
+- [ ] Identified 6-7 distinct analysis methods matching your problem objectives
+- [ ] Listed problem objectives covered by each method
+- [ ] Sketched MJA framework for each method (Method Name → Statistical Justification → Business Justification → Alternatives)
+- [ ] Identified 3-4 visualization charts and their purposes
+- [ ] Noted tools/software to be discussed (Excel components + Python libraries)
+- [ ] Documented data quality assumptions and analytical limitations upfront
+
+---
+
+## DURING-WRITING PHASE: SECTION 5.1 (Overall Analytical Workflow)
+
+### 5.1 Checklist:
+- [ ] Opened with problem framing: "To derive actionable insights from Pure'O Naturals' operational data, a systematic analytical approach was adopted..."
+- [ ] Stated 5-phase analytical progression (EDA → Stats → Optimization → Profitability → Strategic Synthesis)
+- [ ] Each phase described in 2-3 sentences with purpose clarity
+- [ ] Transitional language connecting phases ("The analysis progressed through five integrated phases...")
+- [ ] ~250-300 words total; no padding, every sentence adds structure
+- [ ] Third-person professional tone throughout
+
+**Word Count Target: 250-300 words**
+
+---
+
+## DURING-WRITING PHASE: SECTION 5.2 (Methods by Problem Objective)
+
+### 5.2A: METHOD 1 Checklist (Repeat for all 6-7 methods):
+
+#### Format Requirements:
+- [ ] **Explicit Method Name:** "Method 1: [Full Name] — [Specific Purpose]"
+- [ ] **Method Description (3-4 sentences):**
+  - [ ] What is the method mathematically (formula if applicable)?
+  - [ ] What data does it analyze (granularity: daily/monthly/product-level)?
+  - [ ] What output does it produce (metric, classification, ranking)?
+
+#### Statistical Justification (3-4 sentences):
+- [ ] Why is this method appropriate given your data distribution?
+- [ ] What statistical property does it exploit (normality assumption, non-parametric advantage, scale-independence)?
+- [ ] Any mathematical formula with interpretation?
+- [ ] Connection to inferential statistics or distribution theory?
+
+#### Business Justification (3-4 sentences):
+- [ ] What operational problem does this method solve?
+- [ ] Quantify the business impact (e.g., "Carries 25% annual cost means reducing lockup by ₹X saves ₹Y")
+- [ ] How does this method improve decision-making?
+- [ ] Link to Pure'O Naturals' specific challenges (revenue volatility, margin pressure, inventory misalignment)
+
+#### Alternative Methods Considered (2-3 sentences):
+- [ ] List 2-3 alternatives explicitly
+- [ ] State limitation of each alternative (not "better" but specific weakness)
+- [ ] Explain why chosen method superior to each alternative
+
+#### Chosen Rationale (1-2 sentences):
+- [ ] Tie together: "Method X superior because [technical advantage] + [operational advantage] + [adoption advantage]"
+
+**Template Word Count per Method: 350-400 words**
+
+### 5.2B: Problem Objective Sequencing:
+- [ ] **Problem Objective 1 (Revenue Volatility):** Methods = CV Analysis + Rolling Volatility
+- [ ] **Problem Objective 2 (Low-Margin Risk):** Methods = Contribution Margin + ABC Classification
+- [ ] **Problem Objective 3 (Inventory Optimization):** Methods = ABC + Volatility-Volume Matrix + DSLS
+- [ ] **Problem Objective 4 (Pricing Inconsistency):** Methods = Price Variance Analysis
+
+**Total 5.2 Word Count Target: 2,500-2,800 words (bulk of Section 5)**
+
+---
+
+## DURING-WRITING PHASE: SECTION 5.3 (Visualization Methods)
+
+### 5.3 Checklist (Repeat for each chart):
+
+- [ ] **Chart Type & Purpose:** Explicitly name (e.g., "Pareto Chart") and state purpose (e.g., "Communicate 80-20 revenue concentration")
+- [ ] **Chart Composition:** Describe axes, data fields, annotations (e.g., "X-axis: Products ranked by revenue; Y-axis (left): Bar revenue; Y-axis (right): Line cumulative %")
+- [ ] **Why Elite:** What makes this visualization superior? (e.g., "Dual-axis design communicates two dimensions simultaneously; Pareto line visually anchors 80-20 principle")
+- [ ] **Business Value:** What decision does this chart enable? (e.g., "Stakeholders instantly see top 12 products generate 68% revenue—clear prioritization signal")
+- [ ] **Visual Example (optional but powerful):** Reference figure number (e.g., "Figure 6.1.1") even if figure inserted elsewhere
+
+**Per-Chart Word Count: 150-200 words**
+**Total 5.3 Word Count Target: 400-500 words (3-4 charts)**
+
+---
+
+## DURING-WRITING PHASE: SECTION 5.4 (Tools & Software)
+
+### 5.4 Checklist:
+
+#### Microsoft Excel:
+- [ ] Listed specific Excel components: "Pivot tables for category-wise aggregation"
+- [ ] Listed Excel features used: "Data Analysis Toolpak for descriptive statistics, conditional formatting for pattern detection"
+- [ ] Justified Excel: "Chosen for preliminary exploration and stakeholder communication"
+
+#### Python 3.x:
+- [ ] Listed all libraries with function: "pandas (data manipulation, grouping, aggregation), numpy (numerical computations), scipy.stats (statistical testing), matplotlib/seaborn (visualization)"
+- [ ] Justified Python: "Selected for reproducibility, advanced visualization, analytical rigor"
+- [ ] Stated Jupyter notebook purpose: "Provides documented workflow linking code, results, and interpretation"
+
+#### Integration Rationale:
+- [ ] Explained why dual-tool approach: "Excel for stakeholder communication (non-technical audience); Python for methodological rigor (academic evaluation)"
+- [ ] Emphasized reproducibility: "Dual-tool integration balances accessibility with analytical transparency"
+
+**Total 5.4 Word Count Target: 200-250 words**
+
+---
+
+## DURING-WRITING PHASE: SECTION 5.5 (Limitations & Validation)
+
+### 5.5 Checklist:
+
+#### Data Quality Assumptions (list ≥3):
+- [ ] **Assumption 1 (Price Consistency):** "Unit prices assumed constant within product-day. Mitigation: used daily average price."
+- [ ] **Assumption 2 (Cost Proxy Accuracy):** "Margin estimated using average unit price as cost proxy; margin estimates directional, not exact. Sensitivity: conclusions hold if COGS varies ±20%."
+- [ ] **Assumption 3 (Temporal Completeness):** "POS system captured all transactions consistently. Validation: sample weeks cross-referenced with cash reconciliation (no discrepancies)."
+
+#### Analytical Limitations (list ≥4):
+- [ ] **Limitation 1 (ABC Thresholds):** "Thresholds (68%, 82%) based on retail benchmarks, not data-driven. Future: K-means clustering for natural breakpoints."
+- [ ] **Limitation 2 (Safety Stock):** "CV as sole variability metric ignores lead time variability. Future: Service level-based formula."
+- [ ] **Limitation 3 (Seasonality):** "Rolling volatility captures patterns but doesn't decompose trend vs. seasonality vs. noise. Future: Seasonal decomposition."
+- [ ] **Limitation 4 (Cost Data):** "Analysis relies on revenue-based proxies for margin. Recommendation: implement cost tracking in POS system."
+
+#### Rigor Checkpoints (state each):
+- [ ] ✓ **Normality Testing:** "Distribution characteristics (skewness, kurtosis) reported; non-normal distributions flagged"
+- [ ] ✓ **Outlier Validation:** "Transactions exceeding 3σ flagged for verification (not removed to preserve data integrity)"
+- [ ] ✓ **Dimensionality Balance:** "Bivariate analysis captures essential risk dimensions while maintaining interpretability"
+- [ ] ✓ **Cross-Validation:** "Findings triangulated across methods (e.g., ABC validated against Volatility-Volume Matrix)"
+
+**Total 5.5 Word Count Target: 350-400 words**
+
+---
+
+## DURING-WRITING PHASE: SECTION 5.6 (Rubric Alignment Mapping)
+
+### 5.6 Checklist:
+
+- [ ] Created explicit **Method-to-Objective Table:** Shows which method addresses which problem objective
+- [ ] Created **Rubric Alignment Table:** Maps each rubric criterion (Method Name, Statistical Justification, Business Justification, Alternatives, Limitations) to expected Section 5 evidence
+- [ ] Explicitly stated: "Method name (5 marks): Every method explicitly named... Statistical justification (7 marks): For each method, provided distribution assumptions and mathematical rationale..."
+- [ ] Total mapping confirms all 25 marks addressed across Section 5
+
+**Total 5.6 Word Count Target: 200-250 words**
+
+---
+
+## DURING-WRITING PHASE: SECTION 5.7 (Implementation Roadmap)
+
+### 5.7 Checklist:
+
+#### Phase 1 (Immediate, 0-2 weeks):
+- [ ] Task 1: Finalize ABC classification (state thresholds explicitly)
+- [ ] Task 2: Compute safety stock formulas per quadrant (Q1: 40%, Q2: 10%, Q3: 5%, Q4: 50%)
+- [ ] Task 3: Identify top 10 slow movers (DSLS > 90 days) and clearance protocol
+
+#### Phase 2 (Routine, Weeks 2-8):
+- [ ] Weekly: Monitor stockout frequency
+- [ ] Bi-weekly: Review margin performance
+- [ ] Monthly: Re-compute ABC classification
+
+#### Phase 3 (Strategic, Weeks 8-12):
+- [ ] Quarterly ABC rebalancing
+- [ ] Dynamic pricing pilots (target: 15% margin improvement on low-margin Class A)
+- [ ] SKU rationalization (discontinue Q4 products)
+
+#### Success Metrics (≥5 metrics with baseline/target):
+- [ ] Revenue CV: Baseline 47% → Target <40%
+- [ ] Class A Stockout Rate: Unknown → Target <2%
+- [ ] Low-Margin Products: 48% of SKUs → <35% of SKUs
+- [ ] Slow-Mover Inventory Value: ₹[X] → <₹[X/2]
+- [ ] Price Consistency (Avg CV): 18% → <12%
+
+**Total 5.7 Word Count Target: 250-300 words**
+
+---
+
+## TONE & LANGUAGE GUARDRAILS
+
+### Throughout Section 5, Verify:
+
+✓ **Third-Person Professional:**
+- [ ] NO "I analyzed" or "we considered" ← change to "Analysis employed" or "Methods selected"
+- [ ] NO "I think" or "we believe" ← change to "Evidence suggests" or "Findings indicate"
+
+✓ **Active Voice (Science Writing Standard):**
+- [ ] Preferred: "Coefficient of Variation was computed to quantify..."
+- [ ] Avoid: "We computed Coefficient of Variation..."
+
+✓ **Quantified Statements:**
+- [ ] Every assertion backed by number
+- [ ] NO "High volatility" → YES "CV 47% indicates significant demand fluctuation"
+- [ ] NO "Some products have low margins" → YES "42 of 87 SKUs (48%) exhibit margins <15%"
+
+✓ **Academic-Professional Phrasing:**
+- [ ] "This approach enables..." (vs. "This helps...")
+- [ ] "Operationalize the principle..." (vs. "Use the principle...")
+- [ ] "Statistically appropriate for..." (vs. "Better for...")
+
+---
+
+## FINAL ASSEMBLY CHECKLIST (Before Submission)
+
+### Section 5 Complete Document Verification:
+
+- [ ] **5.1 (Overall Workflow):** 250-300 words; 5-phase progression clear
+- [ ] **5.2 (Methods):** 2,500-2,800 words; MJA applied to all 6-7 methods; all methods justified
+- [ ] **5.3 (Visualization):** 400-500 words; each chart type justified with business value
+- [ ] **5.4 (Tools):** 200-250 words; Excel + Python explicitly listed with justification
+- [ ] **5.5 (Limitations):** 350-400 words; ≥3 data assumptions, ≥4 analytical limitations, 4 rigor checkpoints
+- [ ] **5.6 (Rubric Alignment):** 200-250 words; explicit mapping to 25 marks
+- [ ] **5.7 (Implementation):** 250-300 words; Phases 1-3 with ≥5 success metrics
+
+**Total Section 5 Word Count:** 4,150-4,650 words (2,500-2,700 core, +1,650-2,000 supporting)
+
+### Final Quality Gate:
+
+- [ ] Spell-check passed (Grammarly or similar)
+- [ ] Format: Times New Roman, 12pt, 1.5 spacing, justified alignment
+- [ ] Figure referencing: All figures mentioned with "Figure X.Y" notation
+- [ ] No orphaned paragraphs (each paragraph ≥3 sentences)
+- [ ] Transitions smooth between sections (e.g., "With analytical methods established, visualization approaches...")
+- [ ] Tone consistent (academic-professional throughout; no conversational language)
+- [ ] MJA completeness: Every single method has Method Name → Statistical Justification → Business Justification → Alternatives → Chosen Rationale
+
+---
+
+## RUBRIC SCORING SUMMARY
+
+| Component | Rubric Marks | Your Evidence |
+|-----------|-------------|--------------|
+| **Method Clarity & Naming** | 5 | Every method has explicit, descriptive name |
+| **Statistical Justification** | 7 | Distribution assumptions, formulas, interpretation for each method |
+| **Business Justification** | 7 | Problem → Impact → Decision mapping for each method |
+| **Alternative Comparison** | 4 | "Considered X [limitation], chose Y [reason]" for each method |
+| **Limitations Acknowledged** | 2 | Data assumptions, analytical simplifications stated explicitly |
+| **TOTAL SECTION 5** | **25 MARKS** | Full MJA framework applied rigorously to all methods |
+
+---
+
+## FINAL SUCCESS CRITERIA
+
+Your Section 5 achieves **25/25 if:**
+
+✓ Every analysis method is **explicitly named** (not generic "analysis" but specific "Coefficient of Variation Analysis")
+
+✓ Every method has **statistical justification** (why appropriate given data characteristics)
+
+✓ Every method has **business justification** (how it solves Pure'O Naturals' problem; quantified impact)
+
+✓ Every method lists **alternatives considered** with **specific limitations** and **reasoning for choice**
+
+✓ Analytical **limitations acknowledged** (data assumptions, simplifications, future refinements)
+
+✓ **Visualization methods justified** (what 2+ dimensions each chart communicates; what decision it enables)
+
+✓ **Tools explicitly named** (pandas, numpy, scipy, matplotlib, not generic "Python")
+
+✓ **Third-person professional tone** throughout (no "I", "we", "I think")
+
+✓ **Quantified statements everywhere** (no vague "high volatility" without CV %)
+
+✓ **Rubric alignment explicit** (clear mapping to 25 marks)
+
+---
+
+## YOU ARE READY TO WRITE.
+
+Use this checklist section-by-section. Follow MJA framework religiously. Aim for 4,150-4,650 words of dense, analytically rigorous content. Submit Section 5 with confidence.
+
+**Section 5 scoring = 25/25 achievable with this framework.**
+
+**Excellence awaits.**

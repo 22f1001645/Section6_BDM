@@ -1,0 +1,130 @@
+{
+  "Total Revenue (\u20b9)": {
+    "OVERALL": "25393826.750",
+    "FRUITS": "9225179.690",
+    "VEGETABLES": "8961952.490",
+    "DAIRY": "1546263.960",
+    "SNACKS": "1090841.690",
+    "OTHER": "1720389.310"
+  },
+  "Mean Daily Revenue (\u20b9)": {
+    "OVERALL": "138764.081"
+  },
+  "Median Daily Revenue (\u20b9)": {
+    "OVERALL": "133195.710"
+  },
+  "Std Dev Daily Revenue (\u20b9)": {
+    "OVERALL": "29383.034"
+  },
+  "Min Daily Revenue (\u20b9)": {
+    "OVERALL": "84576.720"
+  },
+  "Max Daily Revenue (\u20b9)": {
+    "OVERALL": "258533.920"
+  },
+  "CoefVar Daily Revenue (%)": {
+    "OVERALL": "21.175"
+  },
+  "Total Transactions": {
+    "OVERALL": "52314"
+  },
+  "Mean Value/Txn (\u20b9)": {
+    "OVERALL": "485.765",
+    "FRUITS": "1155.600",
+    "VEGETABLES": "590.110",
+    "DAIRY": "207.690",
+    "SNACKS": "241.180",
+    "OTHER": "499.100"
+  },
+  "Median Value/Txn (\u20b9)": {
+    "OVERALL": "200.000"
+  },
+  "Std Dev Value/Txn (\u20b9)": {
+    "OVERALL": "872.358"
+  },
+  "Skewness Value/Txn": {
+    "OVERALL": "6.104"
+  },
+  "Kurtosis Value/Txn": {
+    "OVERALL": "59.766"
+  },
+  "Total Units Sold": {
+    "OVERALL": "335899.910",
+    "FRUITS": "67052.330",
+    "VEGETABLES": "171543.710",
+    "DAIRY": "24274.390",
+    "SNACKS": "7584.000",
+    "OTHER": "27394.850"
+  },
+  "Mean Units/Day": {
+    "OVERALL": "1834.204"
+  },
+  "Mean Units/Txn": {
+    "OVERALL": "6.421",
+    "FRUITS": "5.981",
+    "VEGETABLES": "13.703",
+    "UNKNOWN": "4.666"
+  },
+  "Mean Unit Price (\u20b9)": {
+    "OVERALL": "167.270",
+    "FRUITS": "183.180",
+    "VEGETABLES": "92.890",
+    "DAIRY": "82.050",
+    "SNACKS": "145.910",
+    "OTHER": "828.530"
+  },
+  "Median Unit Price (\u20b9)": {
+    "OVERALL": "83.965"
+  },
+  "Std Dev Unit Price (\u20b9)": {
+    "OVERALL": "302.532"
+  },
+  "Min Unit Price (\u20b9)": {
+    "OVERALL": "0.000"
+  },
+  "Max Unit Price (\u20b9)": {
+    "OVERALL": "5500.000"
+  },
+  "Price Volatility (CV%)": {
+    "OVERALL": "180.864",
+    "FRUITS": "142.325",
+    "VEGETABLES": "224.752",
+    "UNKNOWN": "182.673"
+  },
+  "Percent Products CV>25%": {
+    "OVERALL": "83.445",
+    "FRUITS": "87.013",
+    "VEGETABLES": "82.353",
+    "UNKNOWN": "82.060"
+  },
+  "Percent Products CV>100%": {
+    "OVERALL": "1.902",
+    "FRUITS": "3.896",
+    "VEGETABLES": "3.922",
+    "UNKNOWN": "1.163"
+  },
+  "Mean CV All Products (%)": {
+    "OVERALL": "44.771",
+    "FRUITS": "50.052",
+    "VEGETABLES": "43.029",
+    "UNKNOWN": "43.356"
+  },
+  "Percent Products <20% Margin": {
+    "OVERALL": "0.000",
+    "FRUITS": "0.000",
+    "VEGETABLES": "0.000",
+    "UNKNOWN": "0.000"
+  },
+  "Average Estimated Margin (%)": {
+    "OVERALL": "30.000",
+    "FRUITS": "30.000",
+    "VEGETABLES": "30.000",
+    "UNKNOWN": "30.000"
+  },
+  "Margin at Risk Monthly (\u20b9)": {
+    "OVERALL": "156321.729",
+    "FRUITS": "15697.116",
+    "VEGETABLES": "10992.876",
+    "UNKNOWN": "129631.737"
+  }
+}

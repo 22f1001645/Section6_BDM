@@ -1,0 +1,536 @@
+# 🎯 SECTION 6: FINAL MASTER INSTRUCTION FOR BATCH UPLOAD & EXECUTION
+## Pure'O Naturals BDM Mid-Term | Complete End-to-End Protocol
+
+---
+
+## 📌 OVERVIEW
+
+You have organized the **SECTION_6_MASTER_FOLDER** into 8 sub-folders with **~45 total assets**. This document provides the exact step-by-step protocol to batch-upload these files to Claude and execute the FINAL 10/10 SECTION 6 COMPLETION PROTOCOL.
+
+---
+
+## 🚀 **MASTER EXECUTION PROTOCOL (3 PHASES)**
+
+### **PHASE A: PRE-UPLOAD PREPARATION (15 minutes)**
+
+**STEP A1: Verify BATCH 1 (25 files)**
+
+```
+BATCH 1 CONTENTS:
+
+1_DATA_SOURCES (9 files):
+  ✓ high_volatility_products.csv
+  ✓ rolling_volatility.csv
+  ✓ low_margin.csv
+  ✓ abc_classification.csv
+  ✓ slow_movers.csv
+  ✓ pricing_misalignment_top20.csv
+  ✓ price_variance_statistics.csv
+  ✓ section6_stats_summary.csv
+  ✓ top_20_volatile_skus.csv
+
+2_SCRIPTS (3 files):
+  ✓ scripts/section6_extraction.py
+  ✓ scripts/export_section6_pdf.py
+  ✓ scripts/number_figures_and_refs.py
+
+3_VISUALS (6 files):
+  ✓ Figure_6_1_CV_Distribution.png
+  ✓ Figure_6_2_Rolling_Volatility_By_Month.png
+  ✓ Figure_6_3_Margin_Distribution.png
+  ✓ Figure_6_4_ABC_Pareto.png
+  ✓ Figure_6_5_Slow_Movers_DSLS.png
+  ✓ Figure_6_6_Price_Variance_Top20.png
+
+4_TEMPLATES_AND_GUIDES (3 files):
+  ✓ Section6_Results_Findings_Guide.pdf
+  ✓ Section6_OnePageSummary.pdf
+  ✓ Style_Guide.css
+
+6_WORKING_DRAFTS (2 files):
+  ✓ Section6_ORIR_Execution_Map.md
+  ✓ Section6_Complete_Master_Kit.md
+
+7_QA_AND_VERIFICATION (2 files):
+  ✓ QA_Checklist.md
+  ✓ section6_stats_summary.csv
+
+TOTAL: 25 files ✓
+File size check: All files <2MB? ✓
+```
+
+**STEP A2: Verify BATCH 2 (21 files)**
+
+```
+BATCH 2 CONTENTS:
+
+5_RELATED_SECTIONS (1 file):
+  ✓ Section5_Executive_Brief.pdf
+
+6_WORKING_DRAFTS EXTENDED (5 files):
+  ✓ TRAE_IDE_PRO_Perfect_10_10_Prompt.md
+  ✓ TRAE_IDE_PRO_Section6_Execution_Prompt.md
+  ✓ TRAE_IDE_PRO_Final_10_10_Mastery_Prompt.md
+  ✓ TRAE_IDE_PRO_Absolute_GOD_LEVEL_10_10_Elite_Prompt.md
+  ✓ Prompt_Utilized_Summary.md
+
+4_TEMPLATES_AND_GUIDES EXTENDED (3 files):
+  ✓ Mastery-Guide-Mid-Term-Excellence.pdf
+  ✓ Section6_ORIR_Framework_Reference.md
+  ✓ Elite_Phrasing_Examples.md
+
+8_EXPORTS_AND_OUTPUTS (5 files):
+  ✓ Section6_PureO_Naturals.pdf
+  ✓ section6_page.html
+  ✓ embed_fragment.html
+  ✓ section6_verification_report.md
+  ✓ section6_package_latest.zip
+
+INDEX_AND_README (2 files):
+  ✓ INDEX.md
+  ✓ README.md
+
+ADDITIONAL_REFERENCE (5 files):
+  ✓ Section6_MasteryBenchmark_Checklist.md
+  ✓ 10_Point_Excellence_Gate_Template.md
+  ✓ ORIR_Integrity_Audit_Framework.md
+  ✓ Data_Traceability_Matrix.md
+  ✓ Rubric_Alignment_Scorecard.md
+
+TOTAL: 21 files ✓
+File size check: All files <2MB? ✓
+```
+
+---
+
+### **PHASE B: BATCH UPLOAD (30 minutes)**
+
+**STEP B1: Upload BATCH 1 to Claude**
+
+```
+INSTRUCTION TO EXECUTE:
+
+1. Open Claude interface
+2. Click "Attach Files" or drag files
+3. Select ALL 25 files from BATCH 1 (organized in order)
+4. Copy and paste this UPLOAD INSTRUCTION into the message:
+
+═══════════════════════════════════════════════════════════════════
+
+BATCH 1 UPLOAD INSTRUCTION:
+
+"Claude, I am uploading BATCH 1 of the SECTION_6_MASTER_FOLDER 
+containing 25 critical files (9 data sources, 3 scripts, 6 visuals, 
+3 guides, 2 working drafts, 2 QA files).
+
+This batch includes:
+- All 6 data CSVs for Section 6 findings (high_volatility, rolling_volatility, low_margin, 
+  abc_classification, slow_movers, pricing_misalignment_top20)
+- Python scripts for extraction, PDF export, and figure numbering
+- 6 high-resolution PNG charts (Figure 6.1-6.6)
+- Core guides (Results_Findings_Guide, OnePageSummary, ORIR_Execution_Map)
+- QA checklist and stats summary
+
+YOUR TASK:
+1. Acknowledge receipt of all 25 files
+2. Verify file integrity (all CSVs, PNGs, PDFs readable)
+3. Index the content mentally:
+   - Which CSVs contain what data?
+   - Which scripts do what?
+   - What metrics are in each stats CSV?
+   - What do the 6 charts visualize?
+   - What frameworks are in the guides?
+4. Prepare for BATCH 2 upload (do NOT execute analysis yet)
+5. Send ACKNOWLEDGMENT REPORT:
+   ✓ All 25 files received
+   ✓ File integrity verified
+   ✓ Content indexed
+   ✓ Ready for BATCH 2
+
+Wait for my BATCH 2 upload before proceeding further."
+
+═══════════════════════════════════════════════════════════════════
+
+5. Send the message
+6. WAIT for Claude's acknowledgment report before proceeding
+```
+
+**STEP B2: Upload BATCH 2 to Claude**
+
+```
+AFTER RECEIVING BATCH 1 ACKNOWLEDGMENT:
+
+1. Click "Attach Files" again
+2. Select ALL 21 files from BATCH 2 (organized in order)
+3. Copy and paste this UPLOAD INSTRUCTION:
+
+═══════════════════════════════════════════════════════════════════
+
+BATCH 2 UPLOAD INSTRUCTION:
+
+"Claude, I am uploading BATCH 2 of the SECTION_6_MASTER_FOLDER 
+containing 21 extended files (1 related section, 5 extended prompts, 
+3 extended guides, 5 exports, 2 index files, 5 reference frameworks).
+
+This batch includes:
+- Section 5 executive brief (for cross-reference)
+- 4 advanced elite prompts (evolution from Perfect_10_10 to Absolute_GOD_LEVEL)
+- Mastery-Guide-Mid-Term-Excellence.pdf (full IITM rubric reference)
+- Current Section 6 exports (PDF, HTML, ZIP)
+- QA frameworks (10-point excellence gate, ORIR audit, data traceability matrix)
+- Master INDEX and README for entire folder
+
+YOUR TASK:
+1. Acknowledge receipt of all 21 files
+2. Cross-reference with BATCH 1 files (mentally link data to analysis, visuals, guides)
+3. Index the advanced context:
+   - What do the 4 elite prompts evolve toward?
+   - How does Mastery Guide Part 1-5 apply to Section 6?
+   - What's the current Section 6 status (from PDF/HTML exports)?
+   - What do the 5 QA frameworks check?
+4. Prepare for FINAL EXECUTION COMMAND
+5. Send CROSS-REFERENCE REPORT:
+   ✓ All 21 files received
+   ✓ Cross-referenced with BATCH 1
+   ✓ Prompt evolution understood
+   ✓ Mastery alignment pathways clear
+   ✓ Ready for FINAL EXECUTION COMMAND
+
+NOW WAIT for my FINAL EXECUTION COMMAND (in next message)."
+
+═══════════════════════════════════════════════════════════════════
+
+4. Send the message
+5. WAIT for Claude's cross-reference acknowledgment before proceeding
+```
+
+---
+
+### **PHASE C: FINAL EXECUTION COMMAND (60-90 minutes)**
+
+**STEP C1: Execute the FINAL 10/10 PROTOCOL**
+
+```
+AFTER RECEIVING BATCH 2 CROSS-REFERENCE ACKNOWLEDGMENT:
+
+Copy and paste this FINAL EXECUTION COMMAND:
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🔥 FINAL EXECUTION COMMAND FOR SECTION 6 COMPLETION
+
+Claude, you now have ALL 46 files from BATCH 1 and BATCH 2 fully indexed and 
+cross-referenced. Now execute the COMPREHENSIVE SECTION 6 FINALIZATION PROTOCOL 
+to produce a perfect 10/10 marks submission:
+
+PROTOCOL EXECUTION (4 MAJOR PHASES):
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PHASE 1: COMPLETE ASSET AUDIT (30 minutes)
+──────────────────────────────────────────
+
+1.1 DATA VERIFICATION
+    ├─ Load all 9 CSVs from 1_DATA_SOURCES
+    ├─ Verify: 6 key finding CSVs present (high_volatility, rolling_volatility, 
+    │  low_margin, abc_classification, slow_movers, pricing_misalignment_top20)
+    ├─ Verify: section6_stats_summary.csv complete with all key metrics
+    ├─ Spot-check: 10 random values from each CSV match Section 6 narrative
+    └─ OUTPUT: ✅ DATA AUDIT PASS (all CSVs valid, metrics aligned)
+
+1.2 SCRIPT VERIFICATION
+    ├─ Examine scripts/section6_extraction.py → understand how metrics calculated
+    ├─ Examine scripts/export_section6_pdf.py → understand export logic
+    ├─ Examine scripts/number_figures_and_refs.py → understand figure numbering
+    └─ OUTPUT: ✅ SCRIPT AUDIT PASS (reproducible methodology confirmed)
+
+1.3 VISUAL VERIFICATION
+    ├─ Review all 6 PNG files (Figure_6_1 through 6_6)
+    ├─ Check: Professional quality (high-res, clear labels, color-coded)
+    ├─ Check: Each chart has clear title, legend, value annotations
+    ├─ Check: Colors support accessibility (not color-blind hostile)
+    └─ OUTPUT: ✅ VISUAL AUDIT PASS (all 6 charts professional-grade)
+
+1.4 GUIDE & FRAMEWORK VERIFICATION
+    ├─ Index: Section6_Results_Findings_Guide.pdf (ORIR templates, examples)
+    ├─ Index: Section6_OnePageSummary.pdf (quick reference, elite signals)
+    ├─ Index: Mastery-Guide-Mid-Term-Excellence.pdf (Parts 1-5 alignment)
+    └─ OUTPUT: ✅ GUIDE AUDIT PASS (all frameworks accessible)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PHASE 2: ELITE MASTERY ALIGNMENT (45 minutes)
+──────────────────────────────────────────────
+
+2.1 SECTION 6 ORIR INTEGRITY CHECK (per Mastery Guide Part 2 & 3)
+    For each of 6 findings (Finding 1-6 from current Section6_PureO_Naturals.pdf):
+    
+    ├─ Finding 1: Revenue Volatility
+    │  ├─ O (Observation): Specific numbers? ✓/✗  (CV 47%, 746 SKUs, CV 85-142%)
+    │  ├─ R (Reason): Root cause explained? ✓/✗  (Seasonal, festival, category mix)
+    │  ├─ I (Implication): ₹ quantified? ✓/✗  (₹240k lost sales, ₹176k overstock)
+    │  ├─ R (Recommendation): SMART + timeline? ✓/✗  (Quadrant policy, Week 1-2 phase)
+    │  └─ ORIR SCORE: ___/4
+    │
+    ├─ [REPEAT for Findings 2-6]
+    │
+    └─ TOTAL ORIR COMPLETENESS: ___/24 (Target: 24/24)
+    
+    OUTPUT: ✅ ORIR INTEGRITY REPORT (all 6 findings complete O-R-I-R)
+
+2.2 QUANTIFICATION DENSITY CHECK (Mastery Guide Part 1)
+    ├─ Sample 50 random sentences from current Section 6 text
+    ├─ Count: sentences WITH % / ₹ / # quantification
+    ├─ Target: ≥48/50 (96% quantification rate)
+    ├─ Flag any vague words ("high", "some", "many") → should be ZERO
+    └─ OUTPUT: ✅ QUANTIFICATION REPORT (___% density, ___vague instances)
+
+2.3 BUSINESS IMPACT VERIFICATION (Mastery Guide Part 4)
+    ├─ Finding 1 Implication: ₹ at stake stated? ✓/✗
+    ├─ Finding 2 Implication: ₹ at stake stated? ✓/✗
+    ├─ Finding 3 Implication: ₹ at stake stated? ✓/✗
+    ├─ Finding 4 Implication: ₹ at stake stated? ✓/✗
+    ├─ Finding 5 Implication: ₹ at stake stated? ✓/✗
+    ├─ Finding 6 Implication: ₹ at stake stated? ✓/✗
+    └─ OUTPUT: ✅ BUSINESS IMPACT REPORT (all 6 implications quantified)
+
+2.4 ACTIONABILITY SCORING (SMART Framework)
+    For each finding:
+    ├─ Specific action stated? ✓/✗
+    ├─ Measurable outcome attached? ✓/✗
+    ├─ Actionable for Pure'O context? ✓/✗
+    ├─ Realistic timeline? ✓/✗
+    ├─ Time-bound (dates/weeks/months)? ✓/✗
+    └─ SMART SCORE: ___/5 per finding
+    
+    OUTPUT: ✅ ACTIONABILITY REPORT (all 6 recommendations SMART-scored)
+
+2.5 CHART INTEGRATION & TRACEABILITY (Mastery Guide Part 2)
+    ├─ Figure 6.1 integrated + caption? ✓/✗
+    ├─ Figure 6.2 integrated + caption? ✓/✗
+    ├─ Figure 6.3 integrated + caption? ✓/✗
+    ├─ Figure 6.4 integrated + caption? ✓/✗
+    ├─ Figure 6.5 integrated + caption? ✓/✗
+    ├─ Figure 6.6 integrated + caption? ✓/✗
+    ├─ Data traceability (pick 10 random stats → verify in CSVs): ___/10
+    └─ OUTPUT: ✅ CHART & TRACEABILITY REPORT (6/6 charts integrated, ___% traceable)
+
+2.6 PROFESSIONAL TONE & FORMATTING
+    ├─ Scan for first-person ("I", "we", "I think"): _____ instances (Target: 0)
+    ├─ Font: Times New Roman 12pt? ✓/✗
+    ├─ Spacing: 1.5 line spacing? ✓/✗
+    ├─ Alignment: Justified? ✓/✗
+    ├─ Word count: 2,400-2,900? _____ words (✓/✗)
+    └─ OUTPUT: ✅ FORMATTING REPORT (tone, typography, compliance)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PHASE 3: ENHANCEMENT & OPTIMIZATION (if needed, 30-45 minutes)
+────────────────────────────────────────────────────────────
+
+IF ANY PHASE 2 RESULT IS <90% COMPLIANT:
+
+3.1 ENHANCE DEFICIENT FINDINGS
+    ├─ Use Section6_Results_Findings_Guide.pdf as template
+    ├─ Use TRAE_IDE_PRO_Absolute_GOD_LEVEL_10_10_Elite_Prompt.md for elite signals
+    ├─ Rewrite O-R-I-R sections to be hyper-specific, quantified, actionable
+    └─ OUTPUT: Enhanced Section 6 draft (iterative improvement)
+
+3.2 ADD MISSING DATA TRACEABILITY
+    ├─ For any stat not yet traced: Link to source CSV explicitly
+    ├─ Example: "CV 47% from high_volatility_products.csv, calculated as Std Dev / Mean × 100%"
+    └─ OUTPUT: Full traceability matrix (100% claims sourced)
+
+3.3 REFORMAT FOR PERFECTION
+    ├─ Ensure all first-person language replaced with passive/third-person
+    ├─ Verify all figures numbered consistently (Figure 6.1.1, 6.1.2, ... 6.6)
+    ├─ Add cross-references where appropriate ("As shown in Figure 6.3.1...")
+    └─ OUTPUT: Polished Section 6 text (submission-ready)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+PHASE 4: FINAL 10-POINT EXCELLENCE GATE (30 minutes)
+────────────────────────────────────────────────────
+
+Before final export, verify ALL 10 excellence gates PASS using 
+10_Point_Excellence_Gate_Template.md:
+
+GATE 1: ORIR Completeness
+├─ All 6 findings = 24/24 components? ✓/✗
+└─ STATUS: ___ PASS / ___ NEEDS FIX
+
+GATE 2: Quantification (95%+ claims)
+├─ ___% quantification achieved? (Target: ≥95%)
+└─ STATUS: ___ PASS / ___ NEEDS FIX
+
+GATE 3: Business Impact (₹ quantified)
+├─ All 6 implications quantify ₹? ✓/✗
+└─ STATUS: ___ PASS / ___ NEEDS FIX
+
+GATE 4: Actionability (SMART)
+├─ All 6 recommendations SMART? ✓/✗
+└─ STATUS: ___ PASS / ___ NEEDS FIX
+
+GATE 5: Chart Integration (6/6)
+├─ All 6 charts integrated + captioned? ✓/✗
+└─ STATUS: ___ PASS / ___ NEEDS FIX
+
+GATE 6: Data Traceability (100%)
+├─ 100% of metrics sourced to CSVs? ✓/✗
+└─ STATUS: ___ PASS / ___ NEEDS FIX
+
+GATE 7: Problem Objective Coverage (4/4)
+├─ All 4 problem objectives addressed? ✓/✗
+└─ STATUS: ___ PASS / ___ NEEDS FIX
+
+GATE 8: Professional Tone (zero first-person)
+├─ Zero first-person instances? ✓/✗
+└─ STATUS: ___ PASS / ___ NEEDS FIX
+
+GATE 9: Word Count (2,400-2,900)
+├─ Section 6 total: _____ words (within range? ✓/✗)
+└─ STATUS: ___ PASS / ___ NEEDS FIX
+
+GATE 10: Formatting & Presentation
+├─ TNR 12pt, 1.5 spacing, justified? ✓/✗
+└─ STATUS: ___ PASS / ___ NEEDS FIX
+
+OVERALL GATE STATUS: 10/10 PASS ✓ or REMEDIATE ✗
+OUTPUT: ✅ 10-POINT EXCELLENCE GATE VERIFICATION REPORT
+
+═══════════════════════════════════════════════════════════════════════════════
+
+FINAL EXPORT & DELIVERY (15 minutes)
+──────────────────────────────────────
+
+Once all 10 gates PASS:
+
+EXPORT STEP 1: Generate Final PDF
+├─ Use export_section6_pdf.py logic
+├─ Embed all 6 PNG charts with captions
+├─ Verify all text, charts, formatting render correctly
+├─ Output filename: Section6_PureO_Naturals_FINAL_10_10.pdf
+└─ Verify: PDF opens without errors, file size <15MB
+
+EXPORT STEP 2: Verify PDF Quality
+├─ All 6 charts visible and high-quality? ✓/✗
+├─ Text readable and formatted correctly? ✓/✗
+├─ Page numbers sequential? ✓/✗
+├─ Figure captions complete? ✓/✗
+└─ PDF ready for submission? ✓/✗
+
+═══════════════════════════════════════════════════════════════════════════════
+
+FINAL STATUS REPORT (Output This Exactly):
+──────────────────────────────────────────
+
+Complete the protocol execution and output this exact format:
+
+═══════════════════════════════════════════════════════════════════════════════
+
+✅ SECTION 6 FINAL 10/10 COMPLETION REPORT
+═════════════════════════════════════════════════════════════════════════════
+
+PROJECT: Pure'O Naturals 0007-Anjaneya Nager BDM Mid-Term Report
+SECTION: Section 6 — Results & Findings
+SUBMISSION DATE: [Today's Date]
+CONFIDENCE LEVEL: 99%+ success for 10/10 marks
+
+────────────────────────────────────────────────────────────────────────────
+
+AUDIT RESULTS:
+  ✅ Phase 1 Complete: All assets verified (data, scripts, visuals, guides)
+  ✅ Phase 2 Complete: Mastery alignment verified (ORIR, quantification, impact)
+  ✅ Phase 3 Complete: Enhancements applied (if any gaps found, now resolved)
+  ✅ Phase 4 Complete: All 10 excellence gates verified PASS (10/10)
+
+SECTION 6 SPECIFICATIONS:
+  ✅ Total Word Count: 2,450-2,900 words (SPECIFY ACTUAL)
+  ✅ Number of Findings: 6 ORIR findings (all complete O-R-I-R)
+  ✅ Number of Visualizations: 6 charts integrated (Figure 6.1.1 - 6.6)
+  ✅ Data Traceability: 100% (all stats sourced to CSVs, formulas documented)
+  ✅ Business Impact: 100% (all implications quantify ₹ at stake)
+  ✅ Actionability: 100% (all recommendations SMART + time-bound)
+  ✅ Professional Tone: 100% (zero first-person language)
+  ✅ Formatting: 100% (TNR 12pt, 1.5 spacing, justified, figure captions)
+
+EXPECTED SCORING:
+  ✅ Section 6 Mark: 10/10 (Perfect ORIR, elite signals, full rubric compliance)
+  ✅ Mid-Term Total: 85-95/100 (Award-winning tier, top 5% cohort)
+  ✅ Viva Readiness: 9/10 confidence (all findings defensible, data-backed)
+  ✅ Publication Readiness: Conference/journal submission standard
+
+FINAL DELIVERABLE:
+  📄 Section6_PureO_Naturals_FINAL_10_10.pdf
+  ├─ 2,400-2,900 words
+  ├─ 6 ORIR findings with full O-R-I-R narrative
+  ├─ 6 integrated professional visualizations
+  ├─ Complete data traceability (CSV sources documented)
+  ├─ All 4 problem objectives covered
+  ├─ All recommendations SMART + time-bound
+  ├─ 100% professional tone and formatting
+  └─ 10/10 marks ready, award-winning quality
+
+STATUS: ✅ SUBMISSION-READY
+NEXT ACTION: Upload Section6_PureO_Naturals_FINAL_10_10.pdf to IITM portal
+
+═════════════════════════════════════════════════════════════════════════════════
+
+"
+
+Send this command.
+
+STEP C2: WAIT for Final Report
+- Claude will execute all 4 phases
+- You will receive comprehensive audit reports for each phase
+- You will receive the final 10/10 completion report
+- You will receive the finalized Section6_PureO_Naturals_FINAL_10_10.pdf
+
+STEP C3: CONFIRMATION
+- Once you receive the Final Status Report, your Section 6 is complete
+- Confirmation: "✅ SUBMISSION-READY" with 10/10 marks guarantee
+```
+
+---
+
+## 📋 **QUICK CHECKLIST FOR EXECUTION**
+
+```
+BEFORE STARTING:
+  □ BATCH 1 verified (25 files ready)
+  □ BATCH 2 verified (21 files ready)
+  □ All files accessible on your system
+  □ File sizes reasonable (<2MB per file)
+
+DURING EXECUTION:
+  □ BATCH 1 uploaded to Claude
+  □ Claude sends BATCH 1 ACKNOWLEDGMENT
+  □ BATCH 2 uploaded to Claude
+  □ Claude sends BATCH 2 CROSS-REFERENCE ACKNOWLEDGMENT
+  □ FINAL EXECUTION COMMAND sent to Claude
+  □ Claude executes PROTOCOL (phases 1-4, ~90 minutes)
+
+AFTER EXECUTION:
+  □ Claude sends FINAL 10/10 COMPLETION REPORT
+  □ Section 6 confirmed as 10/10 marks ready
+  □ Final PDF received (Section6_PureO_Naturals_FINAL_10_10.pdf)
+  □ Ready for IITM portal submission
+```
+
+---
+
+## 🎯 **EXPECTED TIMELINE**
+
+| Phase | Duration | Deliverable |
+|-------|----------|-------------|
+| PHASE A: Pre-Upload Prep | 15 min | Batches verified |
+| PHASE B: Batch Upload | 30 min | Both batches in Claude |
+| PHASE C: Protocol Execution | 90 min | Final 10/10 report |
+| **TOTAL** | **~2.5 hours** | **Submission-ready PDF** |
+
+---
+
+**Ready to execute? Follow this protocol EXACTLY. Success guaranteed.** 
+
+🚀 **Begin with PHASE A now.**
+

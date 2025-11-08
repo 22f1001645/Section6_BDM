@@ -1,0 +1,29 @@
+metric,OVERALL,FRUITS,VEGETABLES,DAIRY,SNACKS,OTHER,UNKNOWN
+Total Revenue (₹),25393826.750,9225179.690,8961952.490,1546263.960,1090841.690,1720389.310,
+Mean Daily Revenue (₹),138764.081,,,,,,
+Median Daily Revenue (₹),133195.710,,,,,,
+Std Dev Daily Revenue (₹),29383.034,,,,,,
+Min Daily Revenue (₹),84576.720,,,,,,
+Max Daily Revenue (₹),258533.920,,,,,,
+CoefVar Daily Revenue (%),21.175,,,,,,
+Total Transactions,52314,,,,,,
+Mean Value/Txn (₹),485.765,1155.600,590.110,207.690,241.180,499.100,
+Median Value/Txn (₹),200.000,,,,,,
+Std Dev Value/Txn (₹),872.358,,,,,,
+Skewness Value/Txn,6.104,,,,,,
+Kurtosis Value/Txn,59.766,,,,,,
+Total Units Sold,335899.910,67052.330,171543.710,24274.390,7584.000,27394.850,
+Mean Units/Day,1834.204,,,,,,
+Mean Units/Txn,6.421,5.981,13.703,,,,4.666
+Mean Unit Price (₹),167.270,183.180,92.890,82.050,145.910,828.530,
+Median Unit Price (₹),83.965,,,,,,
+Std Dev Unit Price (₹),302.532,,,,,,
+Min Unit Price (₹),0.000,,,,,,
+Max Unit Price (₹),5500.000,,,,,,
+Price Volatility (CV%),180.864,142.325,224.752,,,,182.673
+Percent Products CV>25%,83.445,87.013,82.353,,,,82.060
+Percent Products CV>100%,1.902,3.896,3.922,,,,1.163
+Mean CV All Products (%),44.771,50.052,43.029,,,,43.356
+Percent Products <20% Margin,0.000,0.000,0.000,,,,0.000
+Average Estimated Margin (%),30.000,30.000,30.000,,,,30.000
+Margin at Risk Monthly (₹),156321.729,15697.116,10992.876,,,,129631.737

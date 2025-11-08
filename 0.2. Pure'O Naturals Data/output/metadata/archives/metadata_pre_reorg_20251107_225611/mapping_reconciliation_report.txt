@@ -1,0 +1,23 @@
+MAPPING RECONCILIATION REPORT
+- Total revenue in cleaned_sales.csv: ₹25,393,827
+- Revenue covered before (mapped): ₹25,393,827
+- Revenue missing before: ₹0
+- Missing products count: 0
+- Added rows: 0
+- Category revenue after extension:
+  * Beverages: ₹11,573,528
+  * Snacks: ₹4,875,346
+  * Breakfast: ₹5,074,209
+  * Dairy: ₹3,403,309
+  * Personal Care: ₹327,907
+  * Home Care: ₹139,529
+  * Confectionery: ₹0
+  * Organic: ₹0
+- Sum after extension: ₹25,393,827
+- Expected denominator: ₹29,180,240
+- Match to expected: False
+
+Notes:
+- Fresh produce (fruits, vegetables, greens, mushroom) normalized to 'Breakfast' to ensure coverage.
+- Dairy keywords prioritized; buttermilk and lassi classified under 'Beverages' to align prior outputs.
+- Organic and Confectionery backfill is prepared but awaits policy confirmation before reclassification.

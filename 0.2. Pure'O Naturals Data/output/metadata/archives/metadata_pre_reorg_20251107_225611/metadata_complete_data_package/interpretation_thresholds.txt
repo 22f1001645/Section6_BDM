@@ -1,0 +1,9 @@
+Metric Thresholds and Interpretation
+- CV: <30% Stable, 30–60% Moderate, 60–100% High, >100% Extreme
+- Margin Estimate: <10% Loss-making, 10–15% Critical, 15–20% At-risk, 20–25% Viable, >25% Healthy
+- Max Gap Days: ≤7 Regular, 7–30 Slow, 30–60 Very Slow, >60 Dead Stock
+- Price Volatility: <5% Fixed, 5–15% Moderate, 15–30% High, >30% Critical
+- ABC: Pareto split 70/20/10 by cumulative revenue
+- XYZ: X(CV<50%), Y(50%≤CV<100%), Z(CV≥100%)
+- Revenue per SKU: interpret relative to category averages
+- Category Health Index: Rev Share 40% + Margin 30% + Inverse CV 30%; >6 Healthy, 4–6 At Risk, <4 Crisis

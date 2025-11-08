@@ -1,0 +1,18 @@
+{
+  "name": "pure-o-naturals-ada-dashboard",
+  "version": "1.0.0",
+  "description": "Enhanced ADA Pipeline Dashboard for Pure'O Naturals - Advanced Analytics & Data Modeling",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve .",
+    "build": "echo 'Static site - no build required'"
+  },
+  "keywords": ["dashboard", "analytics", "ada", "pure-o-naturals", "data-visualization"],
+  "author": "Pure'O Naturals Analytics Team",
+  "license": "MIT",
+  "homepage": ".",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pure-o-naturals/ada-dashboard"
+  }
+}

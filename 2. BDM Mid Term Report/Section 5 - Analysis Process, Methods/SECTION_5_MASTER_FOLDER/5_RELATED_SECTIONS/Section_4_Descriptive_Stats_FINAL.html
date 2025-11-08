@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Section 4 Entry</title>
+    <style>
+      body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; margin: 2rem; }
+      .card { max-width: 720px; margin: 0 auto; border: 1px solid #e5e7eb; border-radius: 12px; padding: 1.25rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06); }
+      .actions { display: flex; gap: 0.75rem; margin-top: 1rem; }
+      .btn { padding: 0.6rem 0.9rem; border-radius: 8px; border: 1px solid #2563eb; background: #2563eb; color: #fff; text-decoration: none; }
+      .btn.secondary { background: transparent; color: #2563eb; }
+      .muted { color: #6b7280; font-size: 0.95rem; }
+    </style>
+    <script>
+      (function(){
+        function getPref(){
+          const match = document.cookie.match(/section4-view=([^;]+)/);
+          return match ? decodeURIComponent(match[1]) : null;
+        }
+        function setPref(val){
+          document.cookie = `section4-view=${encodeURIComponent(val)}; path=/; max-age=${60*60*24*365}`;
+        }
+        function redirect(){
+          const pref = getPref();
+          if (!pref || pref === 'premium') {
+            window.location.href = '/preview/section4/index.html';
+          } else {
+            window.location.href = './section_4_draft.md';
+          }
+        }
+        // Auto redirect after brief delay to allow user to override
+        const params = new URLSearchParams(window.location.search);
+        const noAuto = params.get('noauto');
+        if (!noAuto) setTimeout(redirect, 400);
+        window.setPremium = function(){ setPref('premium'); redirect(); };
+        window.setClassic = function(){ setPref('classic'); redirect(); };
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="card" role="region" aria-label="Section 4 entry">
+      <h1>Section 4 — Choose Your View</h1>
+      <p class="muted">You can view the premium preview (recommended) or the classic markdown. Your preference is remembered for future visits.</p>
+      <div class="actions">
+        <a class="btn" href="#" onclick="setPremium(); return false;">Premium Preview</a>
+        <a class="btn secondary" href="#" onclick="setClassic(); return false;">Classic Markdown</a>
+      </div>
+      <p class="muted">Auto-redirect engaged. Add <code>?noauto=1</code> to this URL to disable auto redirect.</p>
+    </div>
+  </body>
+  </html>

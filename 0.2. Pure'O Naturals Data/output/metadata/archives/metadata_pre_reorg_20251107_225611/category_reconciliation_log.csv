@@ -1,0 +1,238 @@
+product,old_category,new_category,method
+KINLEY WATER 1Lt,unknown,Beverages,keyword_heuristic
+KINELY WATER 500ml,unknown,Beverages,keyword_heuristic
+KINLEY SODA 750ML,unknown,Beverages,keyword_heuristic
+BAILLEY  WATER 1LTR,unknown,Beverages,keyword_heuristic
+BAILLEY WATER  500ML,unknown,Beverages,keyword_heuristic
+SPRITE PET  250ML,unknown,Beverages,keyword_heuristic
+SPRITE 600ML,unknown,Beverages,keyword_heuristic
+GULAB JAM MIX 200g MILKY MIST,unknown,Dairy,keyword_heuristic
+BELLAM SUNNIVUNDALU 250g VELLANKI FOODS,unknown,Staples,keyword_heuristic
+DALMOTI 250g VELLANKI FOODS,unknown,Staples,keyword_heuristic
+CHANA DAL 250g VELLANKI FOODS,unknown,Staples,keyword_heuristic
+SPICY ALOO CHIPS 100g VELLANKI FOODS,unknown,Packaged Foods,keyword_heuristic
+PALLI PEANUT VUNDALU 250g VELLANKI FOODS,unknown,Staples,keyword_heuristic
+VENNA VUNDALU 250GMS VELLANKI FOODS,unknown,Staples,keyword_heuristic
+NUVVUNDALU 250g VELLANKI FOODS,unknown,Staples,keyword_heuristic
+KOBBARI VUNDALU 250g VELLANKI FOODS,unknown,Staples,keyword_heuristic
+WHOLE WHEAT BREAD 400g  SPENCERS AKSHAYA FOODS,unknown,Breakfast,keyword_heuristic
+WHOLE MEAL BROWN BREAD 400g SPENCERS AKSHAYA FOODS,unknown,Breakfast,keyword_heuristic
+PREMIUM MILK BREAD 400g SPENCERS AKSHAYA  FOODS,unknown,Dairy,keyword_heuristic
+RICE RAVA IDLY BATTER 1KG ID FRESH,unknown,Staples,keyword_heuristic
+MILK BREAD 350g SPENCERS GOLDEN CRUST NANDA,unknown,Dairy,keyword_heuristic
+DARK CHOCOLATE 150g BEST WISHES AMUL,unknown,Beverages,keyword_heuristic
+MILK CHOCOLATE SMOOTH N CREAMY 150g AMUL,unknown,Beverages,keyword_heuristic
+CHOCOLATE 150G HBD PACK AMUL,unknown,Beverages,keyword_heuristic
+RAISIN N ALMOND 150G CHOCOLATE AMUL,unknown,Beverages,keyword_heuristic
+ALMONDO 200g CHOCOLATE AMUL,unknown,Beverages,keyword_heuristic
+PANEER 200g SINGLE BLOCK MILKY MIST,unknown,Dairy,keyword_heuristic
+PANEER 500g MILKY MIST,unknown,Dairy,keyword_heuristic
+FRESH CREAM 250ml UHT MILKY MIST,unknown,Dairy,keyword_heuristic
+TABLE BUTTER SALTED 100g MILKY MIST,unknown,Dairy,keyword_heuristic
+COOKING UNSALTED BUTTER 500g MILKY MIST,unknown,Dairy,keyword_heuristic
+COOKING BUTTER 100G MILKY MIST,unknown,Dairy,keyword_heuristic
+COOKING BUTTER UNSALTED 200g MILKY MIST,unknown,Dairy,keyword_heuristic
+MOZZARELLA CHEESE 200g MILKY MIST,unknown,Dairy,keyword_heuristic
+SET CURD 400g MILKY MIST,unknown,Dairy,keyword_heuristic
+SET CURD 200g MILKY MIST,unknown,Dairy,keyword_heuristic
+SET CURD 1kg BUCKET MILKY MIST,unknown,Dairy,keyword_heuristic
+CHEDDAR CHEESE 200g MILKY MIST,unknown,Dairy,keyword_heuristic
+CURD 135g POUCH MILKY MIST,unknown,Dairy,keyword_heuristic
+CHEESE CUBES 120g MILKY MIST,unknown,Dairy,keyword_heuristic
+LASSI BLUBERRY 180ml MILKYMIST,unknown,Dairy,keyword_heuristic
+CHEESE SPREAD GARLI 200g MILKY MIST,unknown,Dairy,keyword_heuristic
+CHEESE SLICES 200g MILKYMIST,unknown,Dairy,keyword_heuristic
+CHEESE SLICE 100G MILKY MIST,unknown,Dairy,keyword_heuristic
+SHRIKAND ELAICHI 100g MILKY MIST,unknown,Dairy,keyword_heuristic
+CURD 500g POUCH HERITAGE,unknown,Dairy,keyword_heuristic
+TOTAL CURD 120GMS HERITAGE,unknown,Dairy,keyword_heuristic
+GREEK YOGURT NATURAL 90g EPIGAMIA,unknown,Dairy,keyword_heuristic
+GREEK YOGURT WILD RASBERRY 85g EPIGAMIA,unknown,Dairy,keyword_heuristic
+GREEK YOGURT VANILLA BEAN 90g EPIGAMIA,unknown,Dairy,keyword_heuristic
+PANEER 200G ID FRESH,unknown,Dairy,keyword_heuristic
+PANEER 200G HERITAGE,unknown,Dairy,keyword_heuristic
+COOKING BUTTER 200G HERITAGE,unknown,Dairy,keyword_heuristic
+COOKING BUTTER 500g HERITAGE,unknown,Dairy,keyword_heuristic
+PISTA FLAVOURED MILK 200ML HERITAGE,unknown,Dairy,keyword_heuristic
+SPECIAL  LONG LIFE MILK 500ML HERITAGE,unknown,Dairy,keyword_heuristic
+SPECIAL LONG LIFE COW MILK 180ML HERITAGE,unknown,Dairy,keyword_heuristic
+PANEER 500G HERITAGE,unknown,Dairy,keyword_heuristic
+TABLE BUTTER 100g HERITAGE,unknown,Dairy,keyword_heuristic
+CURD TUB 1KG HERITAGE,unknown,Dairy,keyword_heuristic
+CURD CUP 200G HERITAGE,unknown,Dairy,keyword_heuristic
+TABLE BUTTER SALTED 200G MILKY MIST,unknown,Dairy,keyword_heuristic
+NATURAL THICK CURD CUP 400g ID FRESH,unknown,Dairy,keyword_heuristic
+NATURAL THICK CURD  POUCH 400 GMS ID FRESH,unknown,Dairy,keyword_heuristic
+PASTEURISED BUTTER 100g AMUL,unknown,Dairy,keyword_heuristic
+CHEESE SLICES 200g AMUL 10PC PACK,unknown,Dairy,keyword_heuristic
+CHEESE SLICES 100g AMUL 5PC PACK,unknown,Dairy,keyword_heuristic
+CHEESE EASY OPEN CHIPLET CUBES 60X8X25g AMUL,unknown,Dairy,keyword_heuristic
+AMUL PROCESSED CHEESE BLOCK200g,unknown,Dairy,keyword_heuristic
+BUTTER UNSALTED 500G AMUL,unknown,Dairy,keyword_heuristic
+CHEESE BLOCK 200G HERITAGE,unknown,Dairy,keyword_heuristic
+CURD CUP 400GHERITAGE,unknown,Dairy,keyword_heuristic
+CHEESE SLICES 100g HERITAGE,unknown,Dairy,keyword_heuristic
+CHEESE SLICES 200g HERITAGE,unknown,Dairy,keyword_heuristic
+LASSI 200ml MILKY MIST UHT ROSE,unknown,Dairy,keyword_heuristic
+MASTI BUTTER MILK 1Lt AMUL,unknown,Dairy,keyword_heuristic
+MASTI BUTTER MILK 200ml AMUL tetra,unknown,Dairy,keyword_heuristic
+UHT BUTTER MILK 180ML MILKY MIST,unknown,Dairy,keyword_heuristic
+CURD POUCH 400g MILKY MIST,unknown,Dairy,keyword_heuristic
+AMRUTHA - A2 ORGANIC CURD. 500g AKSHAYAKALPA,unknown,Dairy,keyword_heuristic
+ARTISANAL ORGANIC SET CURD 400g AKSHAYAKALPA,unknown,Dairy,keyword_heuristic
+ORGANIC CURD. 1KG TUB AKSHAYAKALPA,unknown,Dairy,keyword_heuristic
+ORGANIC-PROBIOTIC CURD AKSHAYAKALPA,unknown,Dairy,keyword_heuristic
+ORGANIC- CHEESE SLICES AKSHAYAKALPA,unknown,Dairy,keyword_heuristic
+ORGANIC MALAI PANEER 200g AKSHAYAKALPA,unknown,Dairy,keyword_heuristic
+BUTTER MILK 170ML HERITAGE SACHET,unknown,Dairy,keyword_heuristic
+AKSHAYAKALPA UNSALTED TABLE BUTTER 100g TUB ORGANIC,unknown,Dairy,keyword_heuristic
+AKSHYAKALPA ORGANIC TONED MILK UHT 1Lt. TETRA,unknown,Dairy,keyword_heuristic
+NATURAL CURD 450g SIDS FARM,unknown,Dairy,keyword_heuristic
+BUFFALO CURD 400g SIDS FARM,unknown,Dairy,keyword_heuristic
+FRESH LOOSE PANEER,unknown,Dairy,keyword_heuristic
+CHEESE SPREAD NATURAL OR PLAIN 200g MILKYMIST,unknown,Dairy,keyword_heuristic
+SPICE BUTTER MILK 200ml UHT AKSHAYA KALPA,unknown,Dairy,keyword_heuristic
+PLAIN BUTTER MILK 200ML UHT AKSHAYA KALPA,unknown,Dairy,keyword_heuristic
+BUTTER MILK SPICED 200ml POUCH AKSHAYA KALPA,unknown,Dairy,keyword_heuristic
+BUTTER MILK PLAIN 200ml POUCH AKSHAYA KALPA,unknown,Dairy,keyword_heuristic
+BRINTAN TOFU PANEER 200G,unknown,Dairy,keyword_heuristic
+SKYR YOGHURT 100g MILKYMIST,unknown,Dairy,keyword_heuristic
+GREEK YOGHURT 100g MILKY MIST,unknown,Dairy,keyword_heuristic
+GREEK CEREALS YOGHURT 100g MILKY MIST,unknown,Dairy,keyword_heuristic
+TABLE BUTTER CHIPLITE MILKY MIST,unknown,Dairy,keyword_heuristic
+SID FARMS MALAI PANEER 200g,unknown,Dairy,keyword_heuristic
+TOFU PANEER 200g SAI RATNA FOODS,unknown,Dairy,keyword_heuristic
+GHEE 200ML PET JAR MILKY MIST,unknown,Dairy,keyword_heuristic
+COW GHEE 500ml PET JAR MILKYMIST,unknown,Dairy,keyword_heuristic
+HIMALAYAN HONEY 225g APIS,unknown,Breakfast,keyword_heuristic
+HIMALAYAN HONEY 500g APIS,unknown,Breakfast,keyword_heuristic
+Raw Forest Honey 500g BT,unknown,Breakfast,keyword_heuristic
+Raw Jamun Honey 500g BT,unknown,Breakfast,keyword_heuristic
+DALCHINI 50g,unknown,Staples,keyword_heuristic
+GROUND NUT OIL 1Lt. COLD PRESSED MESMARA,unknown,Staples,keyword_heuristic
+OLIVE OIL 1LTR MESMARA,unknown,Staples,keyword_heuristic
+SAFFLOWER OIL 1Lt. COLD PRESSED MESMARA,unknown,Staples,keyword_heuristic
+HULLED WHITE SESAME OIL 1Lt. MESMARA,unknown,Staples,keyword_heuristic
+MUSTARD OIL 1Lt. MESMARA,unknown,Staples,keyword_heuristic
+FLAX SEED OIL 1L MESMARA,unknown,Staples,keyword_heuristic
+SUNFLOWER OIL 1LT COLD PRESSED MESMARA,unknown,Staples,keyword_heuristic
+PEANUT OIL 1LT COLD PRESSED JIVIKA ORGANICS,unknown,Staples,keyword_heuristic
+SESAME OIL 1Lt COLD PRESSED JIVIKA ORGANICS,unknown,Staples,keyword_heuristic
+SUNFLOWER OIL 1Lt COLD PRESSED JIVIKA ORGANICS,unknown,Staples,keyword_heuristic
+BASMATHI RICE 1KG,unknown,Staples,keyword_heuristic
+CHANA DAL 500g,unknown,Staples,keyword_heuristic
+MOONG DAL1kg,unknown,Staples,keyword_heuristic
+TOOR DAL PRM UNPOLISHED FATKA 1KG,unknown,Staples,keyword_heuristic
+TOOR  DAL FATKA POLISHED 1kg,unknown,Staples,keyword_heuristic
+URAD DAL UNPOLISHED 500g,unknown,Staples,keyword_heuristic
+BAJRA FLOUR 500G,unknown,Staples,keyword_heuristic
+JOWAR FLOUR 500g,unknown,Staples,keyword_heuristic
+RAGI FLOUR 500G,unknown,Staples,keyword_heuristic
+RICE FLOUR 500G,unknown,Staples,keyword_heuristic
+MASOOR DAL 500g,unknown,Staples,keyword_heuristic
+BROWN RICE HMT 1kg,unknown,Staples,keyword_heuristic
+PRM HMT RAW RICE 26KG BAG GAJANAN,unknown,Staples,keyword_heuristic
+RED RICE 1KG,unknown,Staples,keyword_heuristic
+SONA MASURI TELANGANA STEAM RICE 26KG GAJANAN,unknown,Staples,keyword_heuristic
+BARNYARD MILLET UDALU 500G,unknown,Staples,keyword_heuristic
+FREEDOM SUNFLOWER OIL 5LT,unknown,Staples,keyword_heuristic
+FREEDOM SUNFLOWER OIL PET 1LT,unknown,Staples,keyword_heuristic
+FREEDOM SUNFLOWER OIL PET 2LT,unknown,Staples,keyword_heuristic
+GOLD DROP SUNFLOWER OIL 1Lt pouch,unknown,Staples,keyword_heuristic
+AASHIRVAAD ATTA 1KG,unknown,Staples,keyword_heuristic
+RICE RAWA 500g,unknown,Staples,keyword_heuristic
+CHAKKI ATTA GODHUMA PINDI 1Kg,unknown,Staples,keyword_heuristic
+GAJANAN TELANGANA SONA RICE 1Kg,unknown,Staples,keyword_heuristic
+GAJANAN TELANGANA SONA RICE 5Kg,unknown,Staples,keyword_heuristic
+FREEDOM RF SUNFLOWER OIL 1LT POUCH,unknown,Staples,keyword_heuristic
+IDLY RICE  1Kg,unknown,Staples,keyword_heuristic
+SINGLE POLISH RICE 1Kg,unknown,Staples,keyword_heuristic
+MOONG DAL 500G,unknown,Staples,keyword_heuristic
+FREEDOM RICE BRAN 1LTR,unknown,Staples,keyword_heuristic
+FREEDOM MUSTARD OIL 1 Lt,unknown,Staples,keyword_heuristic
+CHANA DAL 1Kg,unknown,Staples,keyword_heuristic
+AASHIRVAD SELECT ATTA 1KG,unknown,Staples,keyword_heuristic
+SINGLE POLISH RICE 5Kg,unknown,Staples,keyword_heuristic
+POOJA OIL 500ML,unknown,Staples,keyword_heuristic
+CORN FLOUR 200g EVR,unknown,Staples,keyword_heuristic
+SPROUTED RAGI FLOUR 500GMS SRI AHARYA,unknown,Staples,keyword_heuristic
+FINGER CHIPS PAPAD 200G EVR,unknown,Packaged Foods,keyword_heuristic
+TONED MILK 500ml HERITAGE,unknown,Dairy,keyword_heuristic
+FULL CREAM MILK 500ml HERITAGE,unknown,Dairy,keyword_heuristic
+COW MILK 500ml GOLDEN HERITAGE,unknown,Dairy,keyword_heuristic
+CINNAMON DALCHINI KG FLYBERRY,unknown,Staples,keyword_heuristic
+SPICED TARO CHIPS 30g FLYBERRY GOURMET,unknown,Packaged Foods,keyword_heuristic
+A2 BUFFALO MILK 500ml SIDS FARM,unknown,Dairy,keyword_heuristic
+COW MILK 500ML POUCH SIDS FARM,unknown,Dairy,keyword_heuristic
+LADIES FINGER,unknown,Vegetables,keyword_heuristic
+LONG CHILLIES,unknown,Vegetables,keyword_heuristic
+BEAUTY PEARS,unknown,Fruits,keyword_heuristic
+KALA JAMUN BOX PACK ANAND,unknown,Breakfast,keyword_heuristic
+VELLANKI KAKARAKAYA CHIPS 150G,unknown,Packaged Foods,keyword_heuristic
+MODERN MILK PLUS BREAD 450g,unknown,Dairy,keyword_heuristic
+MODERN HI FIBER  BROWN BREAD 400g,unknown,Breakfast,keyword_heuristic
+MODERN 100% WHOLE WHEAT BREAD 400G,unknown,Breakfast,keyword_heuristic
+MODERN SANDWICH SUPREME BREAD 400g,unknown,Breakfast,keyword_heuristic
+MODREN FRUITY BREAD 200G,unknown,Breakfast,keyword_heuristic
+SUGAR FREE DARK CHOCOLATE 150g AMUL,unknown,Beverages,keyword_heuristic
+BELGIAN CHOCOLATE 125g AMUL,unknown,Beverages,keyword_heuristic
+CHEESE CUBES 200g MILKY MIST,unknown,Dairy,keyword_heuristic
+CHEESE BLOCK 200G MILKY MIST,unknown,Dairy,keyword_heuristic
+ARTISANAL CURD 400g EPIGAMIA,unknown,Dairy,keyword_heuristic
+TABLE BUTTER 500G HERITAGE,unknown,Dairy,keyword_heuristic
+FRESH PANEER BLOCK 200g AMUL,unknown,Dairy,keyword_heuristic
+AMUL CHEESE SPREAD PLAIN 200g,unknown,Dairy,keyword_heuristic
+COOKING BUTTER 100g AMUL UNSALTED,unknown,Dairy,keyword_heuristic
+AMUL BUTTER 500G SALTED,unknown,Dairy,keyword_heuristic
+BUTTER SCHOOL PACK 100g AMUL,unknown,Dairy,keyword_heuristic
+CHEESE CUBES 120g HERITAGE,unknown,Dairy,keyword_heuristic
+AK ORGANIC HIGH PROTEIN PANEER 200g,unknown,Dairy,keyword_heuristic
+Raw Forest Honey 1000g BT,unknown,Breakfast,keyword_heuristic
+Raw Neem Honey 1000g BT,unknown,Breakfast,keyword_heuristic
+Raw Neem Honey 500g BT,unknown,Breakfast,keyword_heuristic
+Raw Jamun Honey 1000g BT,unknown,Breakfast,keyword_heuristic
+Kashmir Comb Honey 500g BT,unknown,Breakfast,keyword_heuristic
+Tulsi Infused Honey 250g BT,unknown,Breakfast,keyword_heuristic
+ELEPHANT FOREST HONEY 500G 1+1,unknown,Breakfast,keyword_heuristic
+ELEPHANT FOREST HONEY 250G 1+1,unknown,Breakfast,keyword_heuristic
+FREEDOM GROUNDNUTOIL 1LT,unknown,Staples,keyword_heuristic
+AASHIRVAD MULITGRAIN ATTA 1KG,unknown,Staples,keyword_heuristic
+BROWN RICE 5kg,unknown,Staples,keyword_heuristic
+BANANAS 30g FLYBERRY GOURMET,unknown,Fruits,keyword_heuristic
+COKE 250ML,unknown,Beverages,keyword_heuristic
+PREMIUM SANDWICH BREAD 400g SPENCERS AKSHAYA FOODS ENGLISH RECIPE,unknown,Breakfast,keyword_heuristic
+PRM BROWN BREAD 400g MR BREADY NANDAS,unknown,Breakfast,keyword_heuristic
+AMUL DARK CHOCOLATE 125G,unknown,Beverages,keyword_heuristic
+CHEESE SPREAD 200g AMUL,unknown,Dairy,keyword_heuristic
+ALMOND MILK 1Lt UNSWEETENED EPIGAMIA,unknown,Dairy,keyword_heuristic
+SWEET ALMOND OIL100ML MESMARA,unknown,Staples,keyword_heuristic
+PRM HMT RICE 26KG BAG GAJANAN,unknown,Staples,keyword_heuristic
+LOW GI RICE 1Kg AISHWARYA,unknown,Staples,keyword_heuristic
+PRM CHITTIMUTYALU RICE 1KG GAJANAN,unknown,Staples,keyword_heuristic
+JIVIKA NATURALS PEANUT BUTTER500GMS,unknown,Dairy,keyword_heuristic
+POOJA GINGELLY OIL 1LTR,unknown,Staples,keyword_heuristic
+NANDA CRM BUN CHOCOLATE 60g,unknown,Beverages,keyword_heuristic
+ALMONDO BAR 35g CHOCOLATE AMUL,unknown,Beverages,keyword_heuristic
+RAW HONEY 500g BT ROYAL BEE PON,unknown,Breakfast,keyword_heuristic
+RAW HONEY 950G BT ROYAL BEE PON,unknown,Breakfast,keyword_heuristic
+JIVIKA FOREST HONEY250ml,unknown,Breakfast,keyword_heuristic
+COLD PRESSED WHITE SESAME OIL 500ML MESMARA,unknown,Staples,keyword_heuristic
+SUNFLOWER OIL COLDPRESSED 5L MESMARA,unknown,Staples,keyword_heuristic
+LOW GI RICE 5KG AISHWARYA,unknown,Staples,keyword_heuristic
+MOONGDAL RICE RAWA 500G AISHWARYA,unknown,Staples,keyword_heuristic
+AASHIRVAD ATTA 2KG,unknown,Staples,keyword_heuristic
+SRI LALITHA BROWN RICE 5KG SONAMASOORI,unknown,Staples,keyword_heuristic
+WHOLE WHEAT BREAD 400g MR BREADY NANDAS,unknown,Breakfast,keyword_heuristic
+NANDAS Mr BREADRY ZERO MAIDA 450g,unknown,Breakfast,keyword_heuristic
+DARK CHOCOLATE 150g AMUL,unknown,Beverages,keyword_heuristic
+AKSHAYAKALPA TABLE BUTTER SALTED 100g TUB ORGANIC,unknown,Dairy,keyword_heuristic
+JIVIKA COLD PRESSED SAFFLOWER OIL 1LTR,unknown,Staples,keyword_heuristic
+SRI LALITHA HMT RICE 26KG,unknown,Staples,keyword_heuristic
+CHERUKU GADDALU,unknown,Staples,keyword_heuristic
+BRITANNIA MILK BIKIS 71GM,unknown,Dairy,keyword_heuristic
+Tulsi Infused Honey 500g BT,unknown,Breakfast,keyword_heuristic
+SRI LALITHA HMT RICE 10KG,unknown,Staples,keyword_heuristic
+SRI DIVYA DEEPARDHANA OIL 910 ML,unknown,Staples,keyword_heuristic
+HAZELNUT CHOCOLATE SPREAD 200g,unknown,Beverages,keyword_heuristic
+WATER MELON PLATE,unknown,Beverages,keyword_heuristic
+HEKATPY PEARL MILLET COOKIE 125g,unknown,Fruits,keyword_heuristic
